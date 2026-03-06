@@ -83,7 +83,14 @@
 - Where can LLM research excel at producing the right game content (puzzle generation, pixel-art design)?
 - Behavioral data schema — what specific events to log from gameplay for bridge phase?
 
+### Behavioral Data Schema (DECIDED)
+- **Full event schema defined in `/root/docs/behavioral-data-schema.md`.**
+- 11 event types: SESSION_START, PUZZLE_START, CELL_ACTION, ERROR_MADE, ERROR_CORRECTED, POINTER_SAMPLE, CLUE_INTERACTION, HINT_USED, PUZZLE_COMPLETE, PUZZLE_ABANDON, STREAK_UPDATE.
+- Errors shown immediately (retention > data purity). Avoids early frustration.
+- Two-tier capture: action events (every cell interaction) + pointer stream (sampled at 5-10Hz).
+- All behavioral signals are hypotheses. Validation plan requires ~500 users completing 5+ puzzles each.
+- Key design: stable envelope schema + game-specific event_data JSON. Following OpenGameData pattern.
+
 ## Research Queue
 1. Marketing/content — how to acquire target users
-2. Behavioral data schema design — define event taxonomy before build
-3. Puzzle content pipeline — pixel-art source images, difficulty calibration, daily curation
+2. Puzzle content pipeline — pixel-art source images, difficulty calibration, daily curation
