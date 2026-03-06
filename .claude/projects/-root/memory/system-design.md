@@ -49,11 +49,41 @@
 - Get users first (Phase 1), then build bridge (Phase 2).
 - Phase 1 can ship without transition gradient being solved.
 
+### Game Mechanic (DECIDED)
+- **Daily nonogram (picross) — browser-based, one puzzle per day, streak mechanics, pixel-art image reveal on completion.**
+- Evaluated against: word puzzle (Wordle-like), mini-crossword, strategic card game, pattern/sorting puzzle, trivia, physics puzzle, strategy/tower defense.
+- Weighted criteria: behavioral data richness (35%), daily return rate (30%), build complexity (20%), competitive whitespace (15%).
+
+**Why nonogram won:**
+- **Data richness:** Each cell decision is traceable. Deductive reasoning style, pattern recognition speed, risk tolerance (guessing vs. certainty-seeking), persistence after errors, strategic approach (which rows/columns tackled first). Decision density: 12-27 decisions/min at intermediate level (derived from solve time data, not directly measured — see caveats).
+- **Daily return:** One-per-day scarcity mechanic (proven by Wordle/NYT). Streak psychology. Pixel-art reveal = shareable social moment. Intellectually permissible for knowledge workers. 3-8 min sessions fit micro-break pattern.
+- **Build feasibility:** 4-6 weeks solo dev. Vanilla JS + Canvas. Open-source solvers/generators exist (HandsomeOne/Nonogram 150 stars, liouh/picross 74 stars). Largest existing browser nonogram is ~2,000 LOC.
+- **Whitespace:** No dominant free browser nonogram destination (verified). Top sites: puzzle-nonograms.com (~1.4M monthly visits), nonograms.org (~1.2M). Easybrain dominates mobile (50M+ app downloads) but website is just an app funnel. The "daily nonogram" slot is unclaimed at scale.
+
+**Runner-up:** Mini-crossword. Proven daily-return pattern, freshly opened gap (NYT paywalled Mini Crossword on Aug 27, 2025). Lower data richness but safer market bet. If nonogram fails to attract target users, mini-crossword is the fallback.
+
+**Verified claims:**
+- NYT Mini Crossword paywall: confirmed, Aug 27, 2025, hard paywall.
+- No dominant browser nonogram: confirmed, fragmented across ~10 small sites.
+- JS solver/generator repos: confirmed, multiple on GitHub.
+- Build estimate: confirmed by codebase analysis of existing projects.
+
+**Caveats (flagged for downstream phases):**
+1. **Behavioral data richness is theoretical, not proven.** No published study has directly measured hesitation, error recovery, or planning depth in human nonogram gameplay. Claim is extrapolated from general puzzle/cognitive research. Must be validated with real player data post-launch.
+2. **Target demo overlap is a bet, not a fact.** No nonogram-specific demographic study exists. Puzzle demographics skew female, 35+. One data point (puzzle-nonograms.com: 61% male, largest cohort 25-34) is partially supportive. If actual audience differs from target, bridge and agent can adapt to whoever shows up.
+3. **Search demand is niche.** Nonogram volume is far below Wordle/Sudoku/crossword. Not a viral wave — growth depends on execution and marketing.
+4. **Decision density figure (5-15/min in original claim) was corrected.** Beginner: 9-16/min, intermediate: 12-27/min, expert: 30-80/min. Derived from solve times, not directly measured anywhere.
+
+**Tech stack:** Vanilla JS + Canvas API. No framework needed. React acceptable if component state management is desired. Phaser is overkill for this mechanic.
+
+**Ad monetization:** AdSense H5 Games program initially, layer AdinPlay/Venatus for gaming-native formats. Conservative Session RPM: $0.50-$1.50 (display only). Interstitials between daily puzzle and result reveal (natural break point). Never interrupt active play.
+
 ## Open Questions
-- What game mechanic to build? (Desk research needed — evaluating multiple options)
-- Marketing/content strategy for user acquisition (sequenced after game mechanic decision)
-- Where can LLM research excel at producing the right game?
+- Marketing/content strategy for user acquisition (sequenced after build)
+- Where can LLM research excel at producing the right game content (puzzle generation, pixel-art design)?
+- Behavioral data schema — what specific events to log from gameplay for bridge phase?
 
 ## Research Queue
-1. Game mechanic evaluation — what mechanic, for target user type, maximizes play frequency + behavioral data richness?
-2. Marketing/content — how to acquire target users (sequenced after #1)
+1. Marketing/content — how to acquire target users
+2. Behavioral data schema design — define event taxonomy before build
+3. Puzzle content pipeline — pixel-art source images, difficulty calibration, daily curation
