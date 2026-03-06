@@ -78,11 +78,6 @@
 
 **Ad monetization:** AdSense H5 Games program initially, layer AdinPlay/Venatus for gaming-native formats. Conservative Session RPM: $0.50-$1.50 (display only). Interstitials between daily puzzle and result reveal (natural break point). Never interrupt active play.
 
-## Open Questions
-- Marketing/content strategy for user acquisition (sequenced after build)
-- Where can LLM research excel at producing the right game content (puzzle generation, pixel-art design)?
-- Behavioral data schema — what specific events to log from gameplay for bridge phase?
-
 ### Behavioral Data Schema (DECIDED)
 - **Full event schema defined in `/root/docs/behavioral-data-schema.md`.**
 - 11 event types: SESSION_START, PUZZLE_START, CELL_ACTION, ERROR_MADE, ERROR_CORRECTED, POINTER_SAMPLE, CLUE_INTERACTION, HINT_USED, PUZZLE_COMPLETE, PUZZLE_ABANDON, STREAK_UPDATE.
@@ -91,6 +86,19 @@
 - All behavioral signals are hypotheses. Validation plan requires ~500 users completing 5+ puzzles each.
 - Key design: stable envelope schema + game-specific event_data JSON. Following OpenGameData pattern.
 
+### Puzzle Content Pipeline (DECIDED)
+- **Full pipeline defined in `/root/docs/puzzle-content-pipeline.md`.**
+- **Grid sizes:** 10x10 daily (primary), 5x5 tutorial only, 15x15 post-launch stretch goal.
+- **Difficulty:** Line-solvable only (no guessing). Sweep count as metric. Fill ratio 45-70%.
+- **Image sourcing Phase 1:** Twemoji SVG rasterization (CC-BY-4.0, ~300-500 usable puzzles) + OpenGameArt CC0 sprites (~100-200) + hand-drawn seasonal content.
+- **Image sourcing Phase 2:** AI-assisted (PixelLab/Retro Diffusion) + community creation (post 5K DAU).
+- **Pipeline:** Image → render → grayscale → threshold → downsample to 10x10 → solver validation (unique + line-solvable) → sweep count → human recognizability review.
+- **Launch content:** 90 puzzles minimum (3 months buffer). Target 180 (6 months).
+- **Puzzle format:** JSON with solution grid, row/col clues, difficulty class, source/license, image colors.
+- **Critical caveat:** Yield rate (25-45% estimated) is unvalidated. Must test with 50 emoji in first week of pipeline dev.
+
+## Open Questions
+- Marketing/content strategy for user acquisition (sequenced after build)
+
 ## Research Queue
 1. Marketing/content — how to acquire target users
-2. Puzzle content pipeline — pixel-art source images, difficulty calibration, daily curation
