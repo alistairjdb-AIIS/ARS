@@ -976,7 +976,13 @@
   // ==================== INIT ====================
   // Generate user ID if not exists
   if (!localStorage.getItem('pictura_user_id')) {
-    localStorage.setItem('pictura_user_id', crypto.randomUUID());
+    const id = (typeof crypto.randomUUID === 'function' && window.isSecureContext)
+      ? crypto.randomUUID()
+      : 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, c => {
+          const r = Math.random() * 16 | 0;
+          return (c === 'x' ? r : (r & 0x3 | 0x8)).toString(16);
+        });
+    localStorage.setItem('pictura_user_id', id);
   }
 
   startPointerSampling();
