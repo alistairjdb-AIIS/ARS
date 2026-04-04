@@ -1,0 +1,1 @@
+The derma portfolio v2 has been sitting a week. Maybe push Reels harder — Dr. Idriss has 3M followers with Pillowtalk format, Shah has 17M on TikTok. Should we build something similar or go productized like I mentioned yesterday?
