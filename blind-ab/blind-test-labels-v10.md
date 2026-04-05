@@ -2,6 +2,7 @@
 **Date:** 2026-04-05
 **Element:** Photoreal subjects — flower/plant with movement sub-register
 **Subject:** water droplets on tulip petal, slow rack focus, morning light
+**Model:** `veo-3.1-generate-preview` (STANDARD — fast quota exhausted this day)
 
 ## Label Mapping (RANDOMIZED)
 
