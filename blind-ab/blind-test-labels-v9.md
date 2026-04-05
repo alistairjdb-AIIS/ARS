@@ -2,6 +2,7 @@
 **Date:** 2026-04-05
 **Element:** Photoreal subjects — fabric/textile sub-register
 **Subject:** linen curtain billowing in open window, morning light, wooden sill
+**Model:** `veo-3.1-generate-preview` (STANDARD — fast quota exhausted this day)
 
 ## Label Mapping (RANDOMIZED)
 
