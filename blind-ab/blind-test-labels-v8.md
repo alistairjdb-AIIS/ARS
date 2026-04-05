@@ -2,6 +2,7 @@
 **Date:** 2026-04-05
 **Element:** Photoreal subjects — food-in-motion sub-register
 **Subject:** honey dripping from honeycomb onto sourdough toast, wooden board, morning light
+**Model:** `veo-3.1-generate-preview` (STANDARD — fast quota exhausted this day)
 
 ## Label Mapping (RANDOMIZED)
 
