@@ -6,7 +6,9 @@ Both prompts target IDENTICAL brief. Only phrasing changes.
 
 import requests, json, time, os
 
-API_KEY = "AIzaSyDWDdnEGEXGuaJGoY0cMku5QFK6hkTSTow"
+API_KEY = os.environ.get("VEO_API_KEY") or os.environ.get("GOOGLE_AI_API_KEY")
+if not API_KEY:
+    raise SystemExit("VEO_API_KEY or GOOGLE_AI_API_KEY env var required")
 BASE_URL = "https://generativelanguage.googleapis.com/v1beta"
 MODEL = "veo-3.1-fast-generate-preview"
 OUT_DIR = "/root/blind-ab"
