@@ -19,18 +19,18 @@ SHARED_NEGATIVE = (
 # A=terse, B=research-informed crafted
 PROMPTS = {
     "v14-output-a-raw": (
-        "8-second 3D Pixar-style animated scene. A small fox kit sits by a forest "
-        "stream. A butterfly lands on its nose. The fox goes cross-eyed trying to "
-        "look at it. Warm dappled sunlight through trees. Whimsical and charming. "
-        "No dialogue."
+        "8-second 3D Pixar-style animated scene. A small fox kit with warm orange fur "
+        "and a cream chest sits by a forest stream. A blue butterfly lands on its nose. "
+        "The fox goes cross-eyed trying to look at it. Warm dappled sunlight through "
+        "trees. Whimsical and charming. No dialogue."
     ),
     "v14-output-b-raw": (
         "3D Pixar-style. Medium close-up, soft dappled light through canopy. A small "
-        "round-bodied fox kit — warm orange fur, cream chest and ear tips, bright amber "
-        "eyes — sits by a mossy forest stream, one paw dabbling in the water. Its ears "
-        "perk up. A blue butterfly drifts into frame. The fox freezes, then slowly "
-        "crosses its eyes as the butterfly settles on its nose. Its whiskers twitch. "
-        "A tiny smile spreads. Warm golden hour, shallow depth of field."
+        "round-bodied fox kit with warm orange fur, cream chest and ear tips, bright "
+        "amber eyes — sits by a mossy forest stream, one paw dabbling in the water. "
+        "Its ears perk up. A blue butterfly drifts into frame. The fox freezes, then "
+        "slowly crosses its eyes as the butterfly settles on its nose. Its whiskers "
+        "twitch. A tiny smile spreads. Warm golden hour, shallow depth of field."
     ),
 }
 
