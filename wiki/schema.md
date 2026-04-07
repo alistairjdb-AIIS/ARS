@@ -65,21 +65,23 @@ Format: "**When** [situation] → **read** `[source §section]` **for** [what yo
 - **Cross-references** use `[[article-filename]]` (without path or extension)
 - **Confidence tags**: HIGH = tested in A/B or verified against multiple sources, MEDIUM = single credible source or research-derived, LOW = theoretical or single-claim
 - **Claim tags**: [TESTED] = confirmed via A/B test or direct experiment, [VERIFIED] = corroborated across 2+ independent sources, [THEORETICAL] = derived from principles but not empirically tested in our system
-- **Source paths** are relative to `/root/healthcalculators-full/tools/research-data/` for research files, `/root/.claude/projects/-root/memory/` for memory files
+- **Source paths** are relative to `/root/wiki/research-data/` for research files, `/root/.claude/projects/-root/memory/` for memory files
 
 ## Ingest Workflow
 
 When new research arrives (new .md in research-data/, new A/B findings, new memory file):
 
 1. **Classify** — Read the new file. Determine which existing wiki articles it touches (match concepts, not filenames). Determine if a NEW article is needed.
-2. **Update** — For each affected article:
+2. **Semantic extraction** (NOT mechanical summarization) — For each affected article:
+   - **First: identify DECISIONS.** Ask: "What decisions does a practitioner make when using this knowledge?" The article should be organized around decision moments, not topic headings.
    - Add new source to Source Files table
-   - Merge new findings into Core Findings (integrate, don't append)
+   - Merge new findings into Core Findings via semantic extraction (integrate around decisions, don't append by source)
    - Update Operational Rules if findings change decisions
    - Update confidence tags if evidence strengthens or weakens
    - Add new cross-links if they emerge
    - Surface new Open Questions if contradictions appear
-   - **Update Deep Reference pointers** — if the new source contains calibration data, lookup tables, timing values, or tool-specific constraints that are too detailed for the wiki article, add a context-triggered pointer: `**When** [situation] → **read** [source §section] **for** [what you'll find]`. The wiki stays concise; the pointer makes the detail discoverable.
+   - **Update Deep Reference pointers via semantic extraction** — For each decision the practitioner makes, ask: "What detail in the source would CHANGE this decision?" Add context-triggered pointers where the answer is yes. Format: `**When** [decision moment the practitioner is in] → **read** [source §section] **for** [what specifically changes their choice]`. The "When" trigger is a SITUATION, not a topic. The "for" describes what SHIFTS, not "more detail."
+   - **Push raw research to GitHub** — Raw files are the permanent substrate. The wiki points back to them via Deep Reference. Never delete raw research after compilation.
 2b. **Contradiction check** — If new findings contradict existing wiki content:
    - Do NOT silently overwrite
    - Add both versions to the article with [CONTRADICTION] tag
