@@ -432,6 +432,7 @@ Natural skin texture, visible pores. No oversaturation, no artificial glow.
 - [[narrative-coherence]] — The primary judgment axis for this register
 - [[too-perfect-veto]] — The binary quality gate for this register
 - [[character-design-prompting]] — Acting chains and physical descriptors originate here and are most critical in photoreal
+- [[prompting-craft-depth]] — INFORMS: craft-depth A/B tests used photoreal as the primary test register; sub-register patterns (scene-population vs close-up) discovered here
 
 ---
 

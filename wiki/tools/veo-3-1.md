@@ -183,6 +183,9 @@ Structure demonstrated:
 - [[kling-ai]] -- Outperforms Veo for photoreal human faces; complementary tool
 - [[elevenlabs]] -- Alternative/supplementary audio generation when Veo's joint audio is insufficient
 - [[recraft-v4]] -- Static frame generation for storyboard/reference before Veo video generation
+- [[ideogram-3]] — INFORMS: Ideogram generates title cards and text overlays for Veo video content
+- [[runway-gen4]] — CONTRASTS: Runway offers character consistency via reference images where Veo relies on prompt-only generation; Veo available through Runway's API at higher cost
+- [[prompting-craft-depth]] — DEPENDS_ON: Veo prompt effectiveness varies with craft depth; the 5-part formula and acting-chain findings are craft-depth applications specific to this tool
 
 ---
 

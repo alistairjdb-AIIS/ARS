@@ -160,6 +160,7 @@ Pure black and near-black are premium signals. Mid-dark-gray reads as "we added 
 - [[color-narrative]] — Color temperature and lighting temperature overlap; warm/cool lighting is one axis of the color narrative arc
 - [[visual-storytelling-mise-en-scene]] — Lighting is one of six mise-en-scene elements
 - [[design-psychology-gestalt]] — Figure/ground separation depends on lighting and shadow; low-key UI is a figure/ground strategy
+- [[typography-comprehension]] — EXTENDS: dark mode typography requirements (halation, font weight adjustment) depend on the lighting and contrast decisions made here
 
 ---
 

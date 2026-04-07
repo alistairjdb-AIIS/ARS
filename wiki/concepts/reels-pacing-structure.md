@@ -131,6 +131,7 @@ This template follows Mayer's Redundancy Principle: graphics + narration outperf
 - [[voiceover-audio-design]] -- detailed audio design rules that complement the pacing structure
 - [[reels-algorithm-signals]] -- completion rate as the algorithmic reward that pacing optimizes for
 - [[engagement-scoring-matrix]] -- pacing is dimension 2 of the scoring framework
+- [[semantic-demand-patterns]] — INFORMS: content format from demand patterns (data visualization vs protocol steps vs question card) determines which pacing template to apply
 
 ---
 

@@ -153,6 +153,7 @@ Image-derived quality descriptors ("cinematic," "photorealistic," "8K detailed")
 - [[ab-test-results]] -- Complete record of all v1-v20 test results
 - [[floor-bar-quality-references]] -- The quality framework that A/B tests calibrate against
 - [[animate-pipeline-findings]] -- /animate pipeline as a craft-depth tool
+- [[character-design-prompting]] — EXTENDS: character-specific prompting (shape language, acting chains, color rules) is the register-specific application of craft depth for stylized and human character work
 
 ---
 

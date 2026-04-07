@@ -50,7 +50,11 @@ Format: "**When** [situation] → **read** `[source §section]` **for** [what yo
 
 ## Related Concepts
 
-- [[concept-name]] — [relationship]
+- [[concept-name]] — [relationship type]: [why this connection matters]
+
+Relationship types: DEPENDS_ON (this article's claims rely on that concept), INFORMS (this article's findings change decisions in that concept), CONTRASTS (opposite approach or competing axis), EXTENDS (builds on that concept with additional specificity)
+
+**Bidirectional rule:** Every link A→B must have a corresponding B→A. If you add [[foo]] to article bar, add [[bar]] to article foo. The relationship type may differ in each direction (A DEPENDS_ON B, B INFORMS A). Hook-enforced.
 
 ---
 

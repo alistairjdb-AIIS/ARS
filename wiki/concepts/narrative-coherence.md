@@ -87,6 +87,12 @@ For human subjects, narrative incoherence compounds with uncanny valley effects.
 - [[character-design-prompting]] -- Acting chains help enforce narrative coherence by grounding characters in physical cause-and-effect
 - [[prompting-craft-depth]] -- Prompt-depth was the original test variable; narrative coherence emerged as the true causal axis
 - [[floor-bar-quality-references]] -- Narrative coherence failure = below floor, regardless of other qualities
+- [[continuity-editing-scene-flow]] — DEPENDS_ON: continuity editing enforces the spatial and temporal consistency (screen direction, eyeline match, match on action) that makes narrative coherence possible across multi-shot sequences
+- [[anime]] — INFORMS: narrative coherence applies across registers including anime; v16 anime train confirmed physically incoherent moments lose even in stylized work
+- [[photoreal]] — DEPENDS_ON: photoreal register depends on narrative coherence as its primary judgment axis; incoherence around human faces compounds with uncanny valley
+- [[ab-test-results]] — INFORMS: N=8 controlled A/B tests surfaced narrative coherence as the true causal axis, replacing prompt-depth as the test variable
+- [[acting-chains-beat-camera]] — INFORMS: acting chains enforce narrative coherence by grounding characters in physical cause-and-effect sequences
+- [[animate-pipeline-findings]] — INFORMS: /animate's restraint helps maintain narrative coherence by preventing over-specification that introduces contradictions
 
 ---
 

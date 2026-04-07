@@ -198,6 +198,7 @@ When a site is close enough to premium to trigger premium expectations but has m
 - [[color-narrative]] — Saturation as arousal links directly to the color psychology systematic review findings here
 - [[typography-comprehension]] — Typography hierarchy creates the progressive disclosure architecture; Norman's behavioral level requires readable type
 - [[visual-storytelling-mise-en-scene]] — Staging (Disney) and composition (art) are mise-en-scene elements; the five-layer check maps to directing principles
+- [[health-literacy-framing]] — INFORMS: health literacy constraints (6th-8th grade reading level, cognitive load limits) determine how Gestalt grouping, negative space, and Norman's behavioral level must be applied — premium whitespace and figure/ground separation serve health comprehension, not just aesthetics
 
 ---
 

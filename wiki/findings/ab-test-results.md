@@ -264,6 +264,9 @@ Secondary evaluation: technical quality (lighting, composition, motion realism),
 - [[acting-chains-beat-camera]] -- The key character finding from v13 vs v14
 - [[animate-pipeline-findings]] -- The /animate pipeline findings from v19-v20
 - [[floor-bar-quality-references]] -- The quality framework these tests calibrate
+- [[character-design-prompting]] — INFORMS: character prompting techniques (shape language, acting chains, silhouette) are the craft inputs whose effectiveness these A/B tests measure across stylized registers (v11-v17)
+- [[range-building-philosophy]] — INFORMS: each A/B test exploring a new register is implicitly a range-building exercise that expands the format vocabulary
+- [[whitespace-opportunity-framework]] — EXTENDS: A/B testing can validate whether a whitespace format outperforms the default; test results calibrate which format novelties actually work
 
 ---
 

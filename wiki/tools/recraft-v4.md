@@ -294,6 +294,7 @@ Add explicit constraints to prompts: limited colors, limited elements, single ty
 - [[ideogram-3]] -- Ideogram specializes in text-in-image with 58 style presets; Recraft has better design composition and SVG but Ideogram has more style variety
 - [[veo-3-1]] -- Recraft generates static frames that can serve as storyboards or reference images before Veo video generation
 - [[elevenlabs]] -- Audio layer to pair with Recraft-generated visual assets
+- [[kling-ai]] — INFORMS: Kling generates video from Recraft-produced static frames/thumbnails; Recraft provides the visual design layer that Kling's silent video output lacks
 
 ---
 

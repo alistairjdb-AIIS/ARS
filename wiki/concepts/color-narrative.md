@@ -173,6 +173,8 @@ The CSS Scroll-driven Animations API (`animation-timeline: scroll()`) enables na
 - [[camera-language]] — Camera movement and color arc mark the same story beats; they are parallel narrative tracks
 - [[visual-storytelling-mise-en-scene]] — Color as narrative device is one element of directing; the color arc is part of mise-en-scene
 - [[design-psychology-gestalt]] — Saturation as arousal links to the color psychology research in design psychology; similarity principle applies to color coding
+- [[continuity-editing-scene-flow]] — INFORMS: continuity editing preserves the temporal flow across cuts that allows color arcs to read as gradual narrative shifts rather than abrupt palette jumps
+- [[health-literacy-framing]] — INFORMS: the Manchester Color Wheel's clinical mapping of gray to depression and yellow to healthy mood directly supports health-literacy framing decisions — color arcs from gray to warm encode the anxiety-to-relief journey that health-literate design must communicate
 
 ---
 

@@ -165,6 +165,7 @@ Each element in a sequence delivers content AND transforms the interpretive fram
 - [[transitions-state-change]] -- cut types (hard cut, dissolve, wipe, match cut) are implemented as transition techniques
 - [[choreography-stagger]] -- choreography is the multi-element implementation of editorial sequence design
 - [[motion-curves-easing]] -- the emotion-to-curve mapping provides the toolbox for Eisenstein's tonal montage
+- [[continuity-editing-scene-flow]] — EXTENDS: continuity editing applies editorial pacing's cut types and rhythm principles to enforce spatial and temporal coherence across independently produced shots
 
 ---
 

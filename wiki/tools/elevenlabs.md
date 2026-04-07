@@ -278,6 +278,7 @@ After 20+ uses, these sounds carry brand association. Sonic logos trigger emotio
 - [[veo-3-1]] -- Veo generates joint audio with video; ElevenLabs is the supplementary/replacement audio layer when more control is needed
 - [[kling-ai]] -- Kling generates silent video; ElevenLabs provides all audio
 - [[recraft-v4]] -- Static frames for Reels; ElevenLabs provides the audio layer
+- [[ideogram-3]] — INFORMS: Ideogram generates text-heavy visual cards and title cards; ElevenLabs provides the audio layer to pair with these visual assets
 
 ---
 

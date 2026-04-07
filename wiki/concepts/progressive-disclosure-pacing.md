@@ -165,6 +165,8 @@ Systems respond to the derivative, not the state. First derivative (rate of chan
 - [[transitions-state-change]] -- each reveal in a progressive sequence is a state transition with editorial meaning
 - [[squash-stretch-weight]] -- weight and timing of individual reveals within the pacing sequence
 - [[motion-curves-easing]] -- curves determine the emotional character of each reveal
+- [[continuity-editing-scene-flow]] — INFORMS: continuity editing's invisible cut and overlap techniques ensure that progressive disclosure sequences feel like one continuous flow rather than disconnected reveals
+- [[particle-procedural-effects]] — EXTENDS: particle effects (completion fireworks, ambient dust, reactive bursts) serve as secondary action layers within progressive disclosure sequences, marking beat drops and payoff moments
 
 ---
 

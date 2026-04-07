@@ -163,6 +163,7 @@ Perspective value maps to film lens equivalents: [VERIFIED]
 - [[visual-storytelling-mise-en-scene]] — Camera is one of six mise-en-scene elements; composition and staging depend on camera position
 - [[color-narrative]] — Camera movement and color arc work in tandem; the color shift and the camera move mark the same story beats
 - [[design-psychology-gestalt]] — Common Fate (Gestalt) directly maps to tracking shots; elements that move together are perceived as belonging together
+- [[continuity-editing-scene-flow]] — EXTENDS: continuity editing enforces the spatial grammar (180-degree rule, eyeline match, screen direction) that camera language emotionally encodes
 
 ---
 

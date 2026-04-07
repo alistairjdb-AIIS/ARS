@@ -167,6 +167,9 @@ Meta's system predicts: [VERIFIED]
 - [[hook-first-half-second]] -- detailed evidence for dimension 1 (Hook)
 - [[reels-pacing-structure]] -- detailed evidence for dimension 2 (Pacing)
 - [[voiceover-audio-design]] -- audio design rules that affect dimensions 1, 2, and 5
+- [[competitive-landscape-animation]] — INFORMS: the competitive landscape reveals which market tiers actually optimize for these scoring dimensions and where the gap exists between generic template output and crafted content
+- [[semantic-demand-patterns]] — INFORMS: format-topic matching from demand patterns should feed engagement prediction (dimension 6); reference vs validation mode affects which scoring dimensions matter most
+- [[vertical-whitespace-atlas]] — INFORMS: per-vertical whitespace analysis identifies which content formats score well on the scoring matrix dimensions and which saturated formats score poorly despite high production quality
 
 ---
 

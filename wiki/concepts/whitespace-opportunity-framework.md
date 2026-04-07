@@ -78,6 +78,7 @@ This framework is the operational expression of the design product vision: build
 - [[floor-bar-quality-references]] -- ReviewBoardingPass IS the bar because it combined format novelty (whitespace) with execution quality
 - [[range-building-philosophy]] -- The strategic vision that this framework operationalizes
 - [[ab-test-results]] -- A/B testing can validate whether a whitespace format outperforms the default
+- [[vertical-whitespace-atlas]] — EXTENDS: the atlas applies this framework across 8 verticals with per-vertical 5-overused + 5-whitespace analysis, providing the concrete data this framework describes abstractly
 
 ---
 

@@ -238,6 +238,7 @@ From the lighting design source: every lighting choice is a mise-en-scene decisi
 - [[color-narrative]] — Color arc is a narrative device that operates within mise-en-scene; the color script is part of pre-visualization
 - [[design-psychology-gestalt]] — Figure/ground, proximity, continuity directly map to composition principles; staging is a Disney animation principle
 - [[typography-comprehension]] — Typography hierarchy is part of composition on web; the "reading order" research maps to composition's leading lines
+- [[health-literacy-framing]] — INFORMS: health literacy's plain-language principles and given-new contract constrain how show-don't-tell and environmental storytelling translate to health contexts — visual metaphors must work at 6th-grade reading level, and text framing may be required where film technique alone would suffice for general audiences
 
 ---
 

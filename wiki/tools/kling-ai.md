@@ -125,6 +125,7 @@ Based on controlled blind A/B testing (N=3 as of 2026-04-06):
 - [[veo-3-1]] -- Primary video generation tool; Kling complements for human faces where Veo is weaker. Veo generates joint audio; Kling does not.
 - [[elevenlabs]] -- Required audio partner for all Kling-generated video (TTS, SFX, music)
 - [[recraft-v4]] -- Static frame/thumbnail generation to accompany Kling video clips
+- [[runway-gen4]] — CONTRASTS: Runway requires reference images for comparable face quality while Kling achieves superior per-frame photoreal faces from text alone; Runway's strength is character consistency across shots via reference conditioning
 
 ---
 

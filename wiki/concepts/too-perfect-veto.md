@@ -108,6 +108,8 @@ This veto is confirmed for photoreal renders. Transfer to stylized characters or
 - [[prompting-craft-depth]] -- Crafted prompts carry higher too-perfect risk from over-specification
 - [[floor-bar-quality-references]] -- Too-perfect veto = floor failure regardless of creativity
 - [[character-design-prompting]] -- For character work, over-smooth movement quality triggers the same veto principle
+- [[photoreal]] — DEPENDS_ON: photoreal register depends on the too-perfect veto as a binary quality gate; AI face smoothing and skin texture failures are the most potent triggers
+- [[ab-test-results]] — INFORMS: the too-perfect veto was crystallized as a principle through v8 (honey drip) and confirmed across v2, v3, v10
 
 ---
 

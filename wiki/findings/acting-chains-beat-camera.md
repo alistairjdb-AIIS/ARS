@@ -121,6 +121,7 @@ The model is the cinematographer. You are the acting director. Spend prompt toke
 - [[ab-test-results]] -- v13 vs v14 is the canonical evidence; see full test record
 - [[narrative-coherence]] -- Acting chains enforce narrative coherence by grounding characters in cause-and-effect
 - [[animate-pipeline-findings]] -- /animate adds value through restraint, which includes camera restraint
+- [[runway-gen4]] — EXTENDS: Acting-chain principles transfer to Runway but must be adapted to force/physics prose format rather than beat-marked timelines; Runway's prompt dialect processes acting direction differently than Kling or Veo
 
 ---
 

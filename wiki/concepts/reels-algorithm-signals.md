@@ -127,6 +127,8 @@ These are combined into a relevance score using content features (visual, audio,
 - [[engagement-scoring-matrix]] -- operationalizes these algorithm signals into a scoring framework
 - [[reels-pacing-structure]] -- pacing rules derived from these algorithmic requirements
 - [[voiceover-audio-design]] -- audio design choices that affect the UTIS model's content understanding
+- [[competitive-landscape-animation]] — INFORMS: the five-tier market landscape shows how different providers optimize (or fail to optimize) for these algorithm signals, exposing the gap between template tools and crafted content
+- [[vertical-whitespace-atlas]] — INFORMS: per-vertical whitespace analysis identifies saturated formats that the algorithm penalizes through low engagement signals, and whitespace formats that exploit algorithm signals competitors ignore
 
 ---
 

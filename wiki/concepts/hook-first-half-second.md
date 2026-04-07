@@ -111,6 +111,8 @@ Three dominant hook strategies emerge from competitive analysis of 10 health/wel
 - [[voiceover-audio-design]] -- voice-first design rules that support the audio component of the hook
 - [[engagement-scoring-matrix]] -- hook is dimension 1 of the scoring framework
 - [[semantic-demand-patterns]] -- confusion as the universal emotion drives hook selection for health content
+- [[competitive-landscape-animation]] — INFORMS: competitive teardowns of health/wellness brand videos surface the three dominant hook strategies (status, reframe, specific problem) that validate the hook patterns documented here
+- [[vertical-whitespace-atlas]] — INFORMS: per-vertical whitespace analysis identifies which hook patterns work within underserved content formats, connecting hook strategy to vertical-specific opportunity gaps
 
 ---
 
