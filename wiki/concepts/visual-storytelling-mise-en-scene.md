@@ -241,6 +241,15 @@ From the lighting design source: every lighting choice is a mise-en-scene decisi
 
 ---
 
+## Deep Reference
+
+- **When** deciding which visual elements to place in a web section and need the mise-en-scene filtering question → **read** `research-data/directing_visual_storytelling.md` §1 (Mise-en-Scene) **for** the six elements and what each encodes (setting, lighting, costume, position, props, composition), the operational rule ("what does this element say about the subject? If nothing, it is noise"), and the noise-to-signal staging framework
+- **When** translating show-don't-tell to web design but the content requires trust through verbal framing → **read** `research-data/directing_visual_storytelling.md` §3 (Show-Don't-Tell) **for** the visual metaphor substitution technique (replace abstract concept with concrete visual sharing its essential property), worked examples (confusion = static/noise, clarity = single light beam), and the limitation where health data needs verbal framing for trust
+- **When** composing a web section and need to direct eye movement without explicit arrows → **read** `research-data/directing_visual_storytelling.md` §6 (Composition) **for** rule of thirds with CSS grid mapping, leading lines that guide to CTA, negative space as authority signal, and the five-layer composition check (subject, foreground, midground, background, sky/ceiling)
+- **When** choosing chiaroscuro lighting for environmental storytelling → **read** `research-data/cinematography_lighting_design.md` §6 (Chiaroscuro) **for** the extreme key-to-fill ratio technique, CSS implementation using deep shadows + single illuminated element, and why it works as both lighting and narrative device simultaneously
+
+---
+
 ## Open Questions
 
 - Film visual storytelling assumes sustained attention (dark theater, no phone). Web users context-switch constantly. Techniques calibrated for sustained attention may not transfer at assumed intensity.

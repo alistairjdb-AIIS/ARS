@@ -187,6 +187,14 @@ From teardowns of 10 health/wellness brands (Calm, Headspace, WHOOP, Oura, Noom,
 
 ---
 
+## Deep Reference
+
+- **When** positioning a service in the empty middle and need the five-tier segmentation with pricing → **read** `research-data/reels_as_a_service_competitive_landscape_2026.md` (full file) **for** the five tiers with exact pricing ranges, the whitespace capability matrix showing what each tier can/cannot do, agency failure modes (churn data, output quality assessment), three alternative interpretations of why the middle is empty, and the competitive positioning map
+- **When** studying brand video formats from health/wellness competitors for differentiation → **read** `research-data/competitive_brand_video_teardowns.md` (full file) **for** 10 brand teardowns (Calm, Headspace, WHOOP, Oura, Noom, AG1, Eight Sleep) with shot-by-shot breakdowns, hook strategy classification, the UI restraint pattern (showing product UI without over-explaining), and shareability analysis per brand
+- **When** assessing market disruption timeline from AI tools and acquisitions → **read** `research-data/animation_as_a_service_market_research.md` (full file) **for** the Canva/Cavalry acquisition signal, AI disruption indicators across market tiers, Twitter API demand analysis methodology, and the gap analysis showing where AI tools fall short of custom quality
+
+---
+
 ## Open Questions
 
 - Is the empty middle empty because it's impossible to serve profitably, or because nobody has tried? Unit economics of custom quality at SME prices require automation that may not exist yet.

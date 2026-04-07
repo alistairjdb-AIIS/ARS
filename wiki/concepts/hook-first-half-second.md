@@ -114,6 +114,14 @@ Three dominant hook strategies emerge from competitive analysis of 10 health/wel
 
 ---
 
+## Deep Reference
+
+- **When** choosing a hook pattern for health/medical content and need the scroll-stopping mechanism → **read** `research-data/cortisol_animation_content_research.md` §1 (How Real People Talk About Cortisol) **for** four content-specific hook types (reframe hook, identity hook, physical recognition hook, confusion hook), the meme vocabulary as cultural entry point ("you're trying to spike my cortisol"), and the physical-language pattern (people describe stress as "shoulders near my ears" not "I'm stressed")
+- **When** deciding between face-first vs text-first hook and need the retention data → **read** `research-data/instagram_reels_best_practices_2025.md` §1 (Hook Formats) **for** the Emplifi data (10,110 Reels): face within 3s = +10% retention at 10s, human speech within 3s = +25% retention + 5.6% engagement lift, and the >60% hold rate at 3 seconds threshold for 5-10x reach
+- **When** calibrating the 1.7s attention window origin and need to assess its reliability → **read** `research-data/reels_engagement_scoring_research_2026.md` §(Uncertainty Register) **for** the 1.7s attribution (Facebook internal research circa 2016, primary study not publicly accessible, MEDIUM confidence), and why this matters for hook timing decisions
+
+---
+
 ## Open Questions
 
 - Will Instagram's UTIS model (true interest surveys) eventually override 3-second hold rates as the primary distribution gate? The January 2026 UTIS paper is the first evidence this might happen.

@@ -130,6 +130,14 @@ Design implication: Do not minimize loading states, waiting periods, or preparat
 
 ---
 
+## Deep Reference
+
+- **When** applying a generating principle to a specific design problem and need the full domain evidence → **read** `research-data/cross_domain_pattern_synthesis.md` §(per principle) **for** the 8-domain evidence matrix showing how each principle manifests in physics, music, biology, architecture, cinema, linguistics, ecology, and mathematics -- the cross-domain vocabulary is what makes these invisible to single-domain search
+- **When** deriving actionable design rules from the principles and need the top-10 prioritized list → **read** `research-data/cross_domain_pattern_synthesis.md` §(49 Novel Design Rules — Top 10) **for** the most actionable rules including nucleation (first element contains structural geometry of everything that follows), the three-suspension limit (never >3 unresolved threads), loading state as product (show calculation dimensions resolving, not spinner), and ritardando exit (last 15% takes 40%+ of duration)
+- **When** applying the time/space sub-dimensions to a specific layout or interaction → **read** `research-data/cross_domain_pattern_synthesis.md` §(Time & Space Synthesis) **for** 10 additional sub-dimensions (Duration, Sequence, Simultaneity, Memory/Anticipation, Tempo/Rate, Proximity, Depth, Scale, Direction, Enclosure) each with generating principles and top rules — including the 4x proximity threshold for grouping, three depth planes max, and the vertical direction encoding (up = effort, down = delivery)
+
+---
+
 ## Open Questions
 
 - The 10 principles are derived from training-data synthesis (pure reasoning across domains), not from empirical testing. Each principle is individually supported by domain-specific evidence, but the claim that they represent a single underlying structure across domains is a theoretical synthesis, not a verified finding.

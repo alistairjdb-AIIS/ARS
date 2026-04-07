@@ -124,6 +124,14 @@ The model is the cinematographer. You are the acting director. Spend prompt toke
 
 ---
 
+## Deep Reference
+
+- **When** writing an acting chain and need the five-layer template → **read** `research-data/character_design_acting_research.md` [SOURCE FORMAT: conversation JSON — search for "acting chain" and "five-layer"] **for** the stimulus-processing-response sequence structure, the micro-expression dictionary (physical descriptors mapped to emotions: "whiskers twitch" not "looks curious"), movement quality framework, and object interaction patterns that reveal personality
+- **When** deciding how many camera descriptors to include in a character prompt → **read** `memory/feedback-character-prompt-specificity.md` (full file) **for** the maximum-two rule ("medium close-up, shallow depth of field" = enough), the v14 operator quote ("you can see that one is a craft, the other is more generic"), and the finding that model composition choices are often better than specified ones
+- **When** evaluating whether the acting-chain finding holds across registers → **read** `memory/project-curriculum-elements.md` §(Element 3 — Stylized characters) **for** cross-register confirmation (anime 3-0, Pixar 1-1, cartoon 1-0), the v16 narrative-coherence reinforcement in stylized work, and the 150-300 character Veo prompt sweet spot that creates the budget constraint forcing camera vs acting allocation
+
+---
+
 ## Open Questions
 
 - At what level of camera simplicity does output start to degrade? Is "medium close-up" the sweet spot, or would even less (no camera descriptor at all) be better?

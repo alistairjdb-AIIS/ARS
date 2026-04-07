@@ -90,6 +90,14 @@ For human subjects, narrative incoherence compounds with uncanny valley effects.
 
 ---
 
+## Deep Reference
+
+- **When** crafting a photoreal prompt and need to enforce element coexistence (e.g., rain implies no direct sun) → **read** `memory/feedback-narrative-coherence.md` (full file) **for** the v10 tulip macro operator quote explaining why physical consistency matters ("if it just rained, sun is unlikely"), the coexistence enforcement rules (rain → no direct sun, cold → breath/frost visible, summer → no frost), and why prompt-depth correlates with but doesn't cause coherence
+- **When** judging an AI output and need to apply the narrative coherence test → **read** `memory/project-curriculum-elements.md` §(Element 1 — Photoreal subjects) **for** the running tally of N=8 controlled tests showing when coherence correlated with prompt approach, the v10 thesis reframe (prompt-depth is proxy, coherence is causal), and the sub-register pattern (scene-population favors crafted, close-ups favor terse)
+- **When** evaluating whether a photoreal human output passes the coherence threshold → **read** `research-data/photoreal_humans_research.md` §(Uncanny Valley) [SOURCE FORMAT: conversation JSON — search for "uncanny valley" and "perceptual mismatch"] **for** the 40-60ms perceptual mismatch detection timing, lighting consistency as the strongest trigger of incoherence, and skin texture failures that break the physical story
+
+---
+
 ## Open Questions
 
 - Can narrative coherence be automatically detected in generated outputs (e.g., by a scoring model), or does it require human judgment?

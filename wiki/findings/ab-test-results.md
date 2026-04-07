@@ -267,6 +267,14 @@ Secondary evaluation: technical quality (lighting, composition, motion realism),
 
 ---
 
+## Deep Reference
+
+- **When** looking up a specific test result (v1-v20) with operator quotes and scoring details → **read** `memory/project-curriculum-elements.md` (full file) **for** the complete per-test record including subject, register, approach, verdict, running tallies, sub-register patterns, thesis reframes, and cross-model findings
+- **When** analyzing whether acting-chain specificity or camera specification drove a result → **read** `memory/feedback-character-prompt-specificity.md` (full file) **for** the v13 vs v14 comparison (camera hurt in v13, acting chain helped in v14), the v19 /animate restraint finding, and the v20 recency-bias diagnosis
+- **When** determining whether a new test should use controlled-brief or uncontrolled protocol → **read** `memory/feedback-ab-test-controlled-brief.md` (full file) **for** the controlled-brief protocol (hold brief constant, vary only craft depth), the v1 uncontrolled test that produced unreliable conclusions, and the operator quote explaining why different-brief tests are invalid for craft-depth comparison
+
+---
+
 ## Open Questions
 
 - v7 was never completed -- should it be retested or retired?

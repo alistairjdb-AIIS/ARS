@@ -154,6 +154,15 @@ Approximately 5 acting beats in 8 seconds causes visible scene transitions and f
 
 ---
 
+## Deep Reference
+
+- **When** writing an acting chain for a character prompt and need the stimulus-processing-response template → **read** `research-data/character_design_acting_research.md` §(Acting Chains) **for** the five-layer completeness test, the micro-expression dictionary (physical descriptors mapped to emotions), movement quality framework (Laban-derived speed/weight/flow descriptors), and object interaction patterns that reveal personality
+- **When** choosing character proportions and the model output doesn't match intended age/personality → **read** `research-data/character_design_acting_research.md` §(Proportion Systems) **for** the toushin head-count table (2-3 heads = chibi, 6-7 = standard adult, 8+ = heroic), the baby schema cuteness mechanism, and prompt language that triggers specific proportion systems ("chibi style" vs "heroic proportions")
+- **When** deciding how much camera direction to include in a character prompt → **read** `memory/feedback-character-prompt-specificity.md` (full file) **for** the v14 A/B evidence that acting-chain specificity helps but camera choreography over-specification hurts, the "be the acting director, not the DP" rule, and the v19 finding that /animate adds value through what it helps leave out
+- **When** the model output drifts to the wrong style register (anime when you wanted Pixar, or 3D when you wanted 2D) → **read** `memory/project-curriculum-elements.md` §(Element 3 — Stylized characters) **for** sub-register win patterns (anime 3-0 crafted, Pixar split 1-1, cartoon 1-0 crafted), the beat-count limit (~5 beats in 8s causes scene breaks), and style drift confounds from v15
+
+---
+
 ## Open Questions
 
 - Does shape language in prompts ("round-bodied") actually produce friendlier-reading characters vs unspecified? Untested in A/B.

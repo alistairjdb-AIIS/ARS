@@ -189,6 +189,14 @@ Beyond the 10 original principles, 10 additional sub-dimensions were synthesized
 
 ---
 
+## Deep Reference
+
+- **When** applying the Bandwidth Principle and need the specific derivative rule (why instant transitions overload) → **read** `research-data/cross_domain_pattern_synthesis.md` §(Three Cross-Problem Meta-Patterns) **for** the mathematical framing (instant = infinite derivative = overload), and the time sub-dimensions §11-15 that generate specific Bandwidth rules (duration encodes value-weight, sequence is context transformation chain, simultaneity communicates structure while sequence communicates causation)
+- **When** applying the Loading Principle and need to design a loading state that creates value → **read** `research-data/cross_domain_pattern_synthesis.md` §(Top 10 Rules, #5) **for** the "loading state as product" rule (show calculation dimensions resolving, not spinner), the three-suspension limit (never >3 unresolved conceptual threads), and the pink noise pacing rule (variation at all timescales simultaneously)
+- **When** applying the Field Principle and need the space sub-dimensions for layout → **read** `research-data/cross_domain_pattern_synthesis.md` §16-20 (Space sub-dimensions) **for** the 4x proximity threshold (intra-group spacing ≤ 1/4 of inter-group spacing), three depth planes max, three scale regimes (atmospheric >50% viewport, narrative 15-50%, instrumental <15%), directional encoding (vertical: up=effort, down=delivery; horizontal: with reading flow=progress), and the boundaries-are-zones-not-lines principle
+
+---
+
 ## Open Questions
 
 - The "49 design rules" referenced in the source are summarized as top-10 actionable rules plus the three meta-patterns. The full derivation session (Mar 21, 2026) contains the complete set, but only the summary survived into the persistent research file. Some rules may be lost or under-documented.

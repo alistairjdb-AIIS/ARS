@@ -174,6 +174,15 @@ Current practitioner consensus: suggest, don't simulate. Three principles:
 
 ---
 
+## Deep Reference
+
+- **When** choosing SVG grain `baseFrequency` to match a specific film stock look → **read** `research-data/animation_texture_materiality.md` §1 (Film Grain) **for** the frequency-to-stock mapping (0.4-0.5 = coarse 16mm, 0.65-0.75 = medium 35mm, 0.85-1.0 = fine digital), `numOctaves` complexity control, and three CSS implementation methods (SVG feTurbulence, pseudo-element overlay at opacity 0.08, canvas noise)
+- **When** deciding between neumorphism and glassmorphism for a UI element → **read** `research-data/animation_texture_materiality.md` §3-4 (Neumorphism, Glassmorphism) **for** the neumorphism dual-shadow formula (`light-shadow: -offset, dark-shadow: +offset`), glassmorphism backdrop-filter parameters (`blur(12-20px)`, `background: rgba(255,255,255,0.05-0.15)`), and the one-glass-element-per-view readability rule
+- **When** choosing how much texture to apply and the result looks either too sterile or too heavy → **read** `research-data/animation_texture_materiality.md` §7 (Texture-Emotion Psychology) **for** the UBC rough-vs-smooth study findings, the "suggestion over simulation" principle, and the texture intensity spectrum from clinical-clean to tactile-rich with use-case mapping
+- **When** implementing noise on CSS gradients to break banding → **read** `research-data/animation_texture_materiality.md` §5 (Noise and Dithering) **for** four noise types (Bayer/Perlin/Fractal/White) with aesthetic mapping, Perlin + `mix-blend-mode: overlay` gradient technique, and Bayer dithering for intentional retro/lo-fi aesthetic
+
+---
+
 ## Open Questions
 
 - UBC texture psychology study used physical boards, not screens -- transfer to digital visual texture is plausible but not proven

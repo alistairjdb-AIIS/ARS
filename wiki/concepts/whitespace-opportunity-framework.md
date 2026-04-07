@@ -81,6 +81,13 @@ This framework is the operational expression of the design product vision: build
 
 ---
 
+## Deep Reference
+
+- **When** applying the framework to a new vertical and need to see how 5-overused + 5-whitespace was executed across 8 verticals → **read** `memory/project-curriculum-elements.md` §(Element Set) **for** cross-references to vertical research files, the element-by-element curriculum that demonstrates range-building in practice, and how whitespace opportunities compound across registers
+- **When** evaluating whether a whitespace format is genuinely novel or just unfamiliar to you → **read** `memory/feedback-design-floor.md` (full file) **for** the design floor confirmation that execution quality is no longer the bottleneck (the remaining delta is taste/judgment), and the implication that whitespace format selection is now the primary creative decision
+
+---
+
 ## Open Questions
 
 - Is there a diminishing return on format novelty within a vertical? (i.e., after 3 novel formats, does the audience expect novelty and it stops being surprising?)

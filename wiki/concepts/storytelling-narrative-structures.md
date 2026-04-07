@@ -348,6 +348,14 @@ Silent film techniques for Reels (most watched with sound off): [VERIFIED -- pra
 
 ---
 
+## Deep Reference
+
+- **When** compressing a narrative structure into an 8-second Reel and need the micro-storytelling architecture → **read** `research-data/storytelling_narrative_foundations.md` [SOURCE FORMAT: conversation JSON — search for "micro-storytelling"] **for** the compression technique (which story beats survive at 8s: setup-tension-release minimum), the Vonnegut shape that works shortest (Man in Hole: fall + rise), and the emotional specificity craft (specific > generic for triggering mirror neurons)
+- **When** choosing between Hero's Journey, Kishotenketsu, and other structures for a content piece → **read** `research-data/storytelling_narrative_foundations.md` [SOURCE FORMAT: conversation JSON — search for "narrative structures"] **for** the structure-to-use-case mapping, Kishotenketsu's advantage for content without conflict (twist replaces confrontation), Pixar's rules for emotional arcs, and Dan Harmon's simplified 8-step circle
+- **When** designing for shareability and need the neuroscience of what makes people forward content → **read** `research-data/storytelling_narrative_foundations.md` [SOURCE FORMAT: conversation JSON — search for "sharing" and "oxytocin"] **for** the Zak cortisol-oxytocin chain (cortisol for attention + oxytocin for empathy = action), Berger and Milkman's STEPPS framework, and the arousal-drives-sharing finding (high-arousal emotions, positive or negative, produce sharing; low-arousal emotions do not)
+
+---
+
 ## Open Questions
 
 - The Zak cortisol-oxytocin chain was demonstrated with multi-minute video narratives. Whether the chain fires at 8-second durations is an extrapolation, not a proven finding. The mechanism is sound; the minimum duration threshold is unverified.

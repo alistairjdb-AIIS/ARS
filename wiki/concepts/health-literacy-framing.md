@@ -253,6 +253,15 @@ These principles compound. Full stack in order of application: [VERIFIED]
 
 ---
 
+## Deep Reference
+
+- **When** writing calculator result copy and deciding whether to lead with the jargon term or the plain explanation → **read** `research-data/copywriting_zero_context.md` §(Finding 1: Given-New Contract) **for** the linguistic principle (put what reader already knows first, new information last), the wrong way ("TDEE is your Total Daily Energy Expenditure") vs right way ("Your body burns calories every day... That number is called your TDEE"), and the three-step cognitive cost of jargon-first
+- **When** choosing between percentages and natural frequencies for health data display → **read** `research-data/linguistic_framing_health.md` §(Number Format) **for** the evidence that "1 in 10" produces better comprehension than "10%", positive framing reduces anxiety vs negative framing, and the CDC/NIH plain language rules as a concrete checklist
+- **When** deciding the reading level for result page text and need the literacy gap data → **read** `research-data/linguistic_framing_health.md` §(Finding 1: Health Literacy) **for** the gap (average US adult = 6th-8th grade, most health materials = 10th grade+, people read 5 grades below completed education), the recommended target (3rd-5th grade that doesn't feel dumbed down), and the question-behavior effect for engagement
+- **When** framing a health number and unsure whether to use positive ("84% healthy range") or negative ("16% risk") → **read** `research-data/linguistic_framing_health.md` §(Positive vs Negative Framing) **for** the anxiety finding (negative frames increase anxiety without improving compliance), BMI terminology sensitivity, and when negative framing is actually more effective (surgical risk communication)
+
+---
+
 ## Open Questions
 
 - No direct A/B data on health calculator pages specifically. All data is from adjacent domains (SaaS, e-commerce, general health marketing). Application to calculators is inferred.

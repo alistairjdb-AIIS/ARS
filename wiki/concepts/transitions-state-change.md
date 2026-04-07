@@ -169,6 +169,15 @@ Three universal rules from Apple, Stripe, Linear, Notion demos: [VERIFIED -- inf
 
 ---
 
+## Deep Reference
+
+- **When** choosing which clip-path shape to use for a reveal (inset vs circle vs polygon) → **read** `research-data/sfx_screen_transitions.md` §1 (Wipe Transitions) **for** the four shape functions with use-case mapping, the critical rule that both keyframes must use the same shape function, and exact CSS keyframe recipes including iris-from-corner (200% radius for full coverage)
+- **When** a transition needs to feel organic/liquid rather than geometric → **read** `research-data/sfx_screen_transitions.md` (Liquid Transitions section) **for** the SVG goo effect alpha matrix values (`20 -10` in feColorMatrix), `feTurbulence` + `feDisplacementMap` filter chain, and the `baseFrequency` 0-to-peak-to-0 animation pattern that makes content ripple then resolve
+- **When** an element changes position in a grid (sort, filter, expand) and needs smooth animation → **read** `research-data/animation_choreography.md` (FLIP Technique section) **for** the First-Last-Invert-Play sequence that keeps layout changes on the compositor thread at 60fps, GSAP Flip plugin syntax, and why only transform/opacity should be animated in FLIP
+- **When** building a confusion-to-clarity narrative transition → **read** `research-data/sfx_screen_transitions.md` (Glitch Effects section) **for** the CSS `clip-path` slice technique for screen corruption, RGB channel split via layered translate, and the fire-once-then-resolve rule that prevents glitch from reading as broken UI
+
+---
+
 ## Open Questions
 
 - View Transitions API cross-document support in Firefox is "not yet" -- check caniuse before shipping MPA transitions

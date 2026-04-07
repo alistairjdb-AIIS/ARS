@@ -153,6 +153,15 @@ These patterns are used by premium SaaS (Linear, Vercel, Stripe) but absent from
 
 ---
 
+## Deep Reference
+
+- **When** designing a landing page hero and choosing between dual CTA ("Start Free" + "Book Demo") and single CTA → **read** `research-data/saas_landing_page_patterns_2026.md` §1.4 (Dual CTA) **for** the PassionFruit finding (2,000 B2B SaaS pages: >1 primary offer can decrease conversion up to 266%), and the exception case (enterprise/mid-market with genuinely split funnel)
+- **When** building social proof for SME buyers and choosing between G2 badges and specific customer outcomes → **read** `research-data/sme_buyer_psychology_2026.md` §1 (Trust Signals) **for** the trust signal hierarchy reversal (enterprise: analyst ratings high / SME: low — only 13% of SMBs pay for analyst subscriptions), the five distrust triggers, and why "14 new 5-star reviews per month" outperforms "reputation management software"
+- **When** designing the pricing section and deciding between transparent vs "Contact Sales" → **read** `research-data/sme_buyer_psychology_2026.md` §1b (Distrust Triggers) **for** why hidden pricing causes instant bounce for owner-operators (signals enterprise pricing + waste of time), and the finding that even high prices build more credibility than hidden ones
+- **When** looking for differentiation patterns that aren't overused → **read** `research-data/saas_landing_page_patterns_2026.md` §2 (High-Converting SaaS Pages) **for** the 5 overused patterns to avoid (generic outcome headline, G2 badge grid, competitor comparison table, dual CTA, 3-step "How It Works"), and the replacement patterns from Linear, Vercel, and Stripe that work
+
+---
+
 ## Open Questions
 
 - Does the "90-second attention window" assumption hold when measured with actual scroll depth data on SME SaaS pages? Currently inferred from behavioral patterns, not directly measured.

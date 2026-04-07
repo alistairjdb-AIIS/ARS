@@ -402,6 +402,21 @@ Saturated format + trending audio past peak + low originality score + slow openi
 
 ---
 
+## Deep Reference
+
+- **When** building content for a specific vertical and need the 5-overused + 5-whitespace analysis → **read** the per-vertical research file for that vertical:
+  - Dental: `research-data/dental_reels_whitespace_2026.md` **for** 5 saturated formats, 5 cross-industry imports, Spain market context, and 5 Spanish-language concept architectures
+  - Dermatology: `research-data/dermatology_reels_research_2026.md` **for** HWG compliance (highest-confidence findings in the corpus), algorithm signal confirmation, engagement benchmarks, and top account format analysis
+  - Healthcare: `research-data/healthcare_reels_whitespace_2026.md` **for** 5 overused healthcare formats, 6 emerging visual styles with Canva data, and 5 dermatology concept architectures
+  - Fitness: `research-data/fitness_reels_whitespace_2026.md` **for** 5 overused formats with volume data, hook patterns with timing data, audience psychology segmentation, and algorithm completion rate benchmarks
+  - E-commerce: `research-data/ecommerce_reels_whitespace_2026.md` **for** 4 seller segments with psychographic profiles, 6 whitespace opportunities, and platform-specific vocabulary guides
+  - Etsy: `research-data/etsy_seller_marketing_reels_2026.md` **for** handmade effect buyer psychology, purchase-driving content hierarchy, and business account music restrictions
+  - Restaurant/Bar: `research-data/restaurant_bar_reels_whitespace_2026.md` **for** viral case analysis (MonarchKitchen, Coalition, Third Wave), 4 emerging visual styles, and Spain-specific addendum
+  - Yoga/Wellness: `research-data/yoga_wellness_reels_whitespace_2026.md` **for** follow-to-book gap psychology, 3-hook system, engagement benchmarks by account size, and the finding that business accounts face music restrictions
+- **When** choosing product categories for e-commerce content → **read** `research-data/top_categories_etsy_amazon_2026.md` **for** Etsy top 3 (Home & Living, Jewelry, Digital Downloads), Amazon top 3 (Beauty, Health & Household, Home & Kitchen), and cross-platform buyer behavior comparison
+
+---
+
 ## Open Questions
 
 - **No primary engagement data for any whitespace format.** All whitespace opportunities are inferred from absence + cross-domain import logic, not from A/B tests within the target vertical. The highest-priority validation step is running Trial Reels with novel formats and measuring DM send rates vs. established format baselines.

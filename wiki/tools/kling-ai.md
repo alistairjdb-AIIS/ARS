@@ -128,6 +128,14 @@ Based on controlled blind A/B testing (N=3 as of 2026-04-06):
 
 ---
 
+## Deep Reference
+
+- **When** setting up JWT authentication for Kling API calls → **read** `memory/credentials.md` §(Kling AI) **for** access key, secret key, JWT construction (HS256, iss=AccessKey, exp=now+1800, nbf=now-5, sign with SecretKey), base URL (`https://api.klingai.com`), and confirmed endpoints (`/v1/videos/text2video`, `/v1/videos/image2video`)
+- **When** deciding whether to use Kling or Veo for a specific shot → **read** `memory/project-curriculum-elements.md` §(Element 4 — Photoreal humans) **for** the cross-model finding (Kling outperforms Veo for photoreal human faces), the v18 evidence (imperfection prompting + acting chain + film grain worked on Kling for elderly man), v19 evidence (/animate restraint value), and the v20 nuance (restraint lost to energy for stylized creature content)
+- **When** prompting Kling for photoreal humans and need the imperfection technique → **read** `memory/feedback-character-prompt-specificity.md` §(v19 finding) **for** the restraint principle (/animate adds value through what it helps leave out), acting-chain specificity that works across both Veo and Kling, and why NOT specifying camera produced better framing (profile = candid/observed vs front-facing = posed)
+
+---
+
 ## Open Questions
 
 - Full API parameter documentation -- only text2video and image2video endpoints confirmed; parameter details (aspect ratio, duration control, model variants, pricing per second) not documented in available sources [THEORETICAL]

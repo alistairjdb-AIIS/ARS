@@ -154,6 +154,14 @@ The v2 dataset was partially misleading. Corrections: [VERIFIED]
 
 ---
 
+## Deep Reference
+
+- **When** designing a calculator result page and need to choose between Reference mode (dense/saveable) and Validation mode (emotional scaffolding) → **read** `research-data/semantic_demand_findings_v1.md` §(Finding 1) **for** the bookmark-to-like ratio table per topic (Training 0.33 = reference, BMI 0.05 = validation), the configurable mode flag approach, and what each mode needs (reference = dosage tables/comparison charts, validation = "am I okay?" framing)
+- **When** choosing content format for a health Reel and need the format-to-engagement mapping → **read** `research-data/semantic_demand_findings_v1.md` §(Finding 3) **for** which formats drive saves vs likes vs replies per topic, the comparison question dominance (40% of all reply questions are "X vs Y"), and the emotional state map showing confusion as the universal unmet need
+- **When** building a hook for cortisol/stress content and need the cultural vocabulary → **read** `research-data/cortisol_animation_content_research.md` §1 (How Real People Talk) **for** the meme vocabulary ("spike my cortisol," "low cortisol era"), the physical-language pattern ("shoulders near my ears" not "I'm stressed"), and the body-image anxiety overlay (#CortisolTok, 800M+ views)
+
+---
+
 ## Open Questions
 
 - Is the comparison question dominance a Twitter artifact or universal user behavior? The dataset is Twitter-only (616 tweets). Reddit, forums, and Google search behavior may differ.

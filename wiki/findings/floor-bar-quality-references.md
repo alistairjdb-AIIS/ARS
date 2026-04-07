@@ -136,6 +136,14 @@ Memory-as-reference, not memory-as-law. [VERIFIED -- operator directive]
 
 ---
 
+## Deep Reference
+
+- **When** applying the floor check and need the specific operator calibration for ReviewGold V3 → **read** `memory/project-design-top-reels.md` (full file) **for** the two-axis principle (floor = aesthetic cleanliness, bar = creativity x execution), the V1-V4 iteration history, operator quote ("from a personal judgment of cleanliness, V3 is sort of the bar and the floor"), secondary floor references (LayerPeel, DataPulse, Scale), and the anti-rigidity mechanisms (context-scoped references, dissent-on-apply, sunset cadence)
+- **When** deciding if an output reaches the bar and need the ReviewBoardingPass calibration → **read** `memory/project-design-top-reels.md` §(Creative Bar — ReviewBoardingPass) **for** why it is the bar (BOTH creative discovery + strong execution simultaneously), operator quote ("mix of creativity as in not rigid but discovery and trying something new, plus execution"), and the hierarchy for quality decisions (floor failure = reject unconditionally, bar miss = ship if needed but flag, bar hit = celebrate and study)
+- **When** the floor-bar framework feels too rigid for a novel format → **read** `memory/feedback-design-floor.md` (full file) **for** the confirmation that execution quality is no longer the bottleneck (operator: "my floor is your floor and now is only judgement driven"), meaning the remaining delta is taste/judgment decisions that require operator input
+
+---
+
 ## Open Questions
 
 - Should there be a formal "bar hit" count? (i.e., how many outputs have reached ReviewBoardingPass level since it was established as the reference?)

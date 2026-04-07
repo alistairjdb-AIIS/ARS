@@ -186,6 +186,14 @@ Structure demonstrated:
 
 ---
 
+## Deep Reference
+
+- **When** writing a Veo prompt and need the 5-part formula with field-level breakdown → **read** `research-data/veo_3_1_best_practices.md` §(5-Part Prompt Formula) **for** the `[Cinematography] + [Subject] + [Action] + [Context] + [Style & Ambiance]` structure, the 7-component expansion, and the principle that prompts should read like screenplay shot lists not marketing copy
+- **When** setting up the Veo API call and need exact endpoint, model IDs, and pricing → **read** `research-data/veo_3_1_best_practices.md` §(API Reference) **for** base URL, model identifiers (`veo-3.1-generate-preview` at $0.40/s, `veo-3.1-fast-generate-preview` at $0.15/s), polling interval (15s), payload structure, and the negative prompt parameter
+- **When** deciding between Veo and Kling for a specific subject → **read** `memory/project-curriculum-elements.md` §(Cross-model finding) **for** the A/B evidence that Kling outperforms Veo for photoreal human faces, while Veo's joint audio generation is a unique advantage that Kling lacks
+
+---
+
 ## Open Questions
 
 - 9:16 aspect ratio support -- not tested in any pipeline [THEORETICAL]

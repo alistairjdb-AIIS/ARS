@@ -130,6 +130,14 @@ These are combined into a relevance score using content features (visual, audio,
 
 ---
 
+## Deep Reference
+
+- **When** deciding whether to optimize for sends vs likes for a specific Reel → **read** `research-data/reels_engagement_scoring_research_2026.md` §1A (Official Meta Sources) **for** Mosseri's stated hierarchy (sends > likes for non-follower reach, likes > sends for follower reach, watch time #1 in both), the 3-second watch threshold explicitly measured by Meta's system, and the multi-stage ranking funnel architecture (Sourcing → ESR → LSR on ~100 candidates)
+- **When** evaluating whether a claim about algorithm signals is reliable or marketing noise → **read** `research-data/reels_engagement_scoring_research_2026.md` §(Uncertainty Register) **for** confidence ratings per finding (saves carry 1.7x weight of likes = LOW confidence single source, kinetic typography +42% = LOW unverifiable, 8-second attention span = DEBUNKED)
+- **When** designing content for the UTIS (Unified Training Inference System) content understanding model → **read** `research-data/reels_engagement_scoring_research_2026.md` §(Meta Engineering Blog) **for** how Meta's AI analyzes audio, text, and visual features to match content to user interests beyond behavioral signals, and why "production style" matching is a separate signal from engagement
+
+---
+
 ## Open Questions
 
 - How exactly does the UTIS model weight "production style" matching vs. raw engagement signals? The model acknowledges behavioral signals are insufficient, but the relative weights are unpublished.

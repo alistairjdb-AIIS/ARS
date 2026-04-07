@@ -142,6 +142,15 @@ Duration communicates weight directly. Longer = heavier, more consequential. Sho
 
 ---
 
+## Deep Reference
+
+- **When** writing Framer Motion or SwiftUI spring code and need exact stiffness/damping/mass values for a weight class → **read** `research-data/animation_physical_weight.md` §2 (Spring Constants by Element Weight Class) **for** copy-paste Framer Motion syntax per weight class (e.g., tooltip: `stiffness: 450, damping: 32, mass: 0.7`), Apple SwiftUI `.spring(response:dampingFraction:)` equivalents, and Figma named preset mapping (Gentle=Heavy, Quick=Light, Bouncy=off-chart, Slow=Ultra-heavy)
+- **When** deciding how much overshoot (y2) a heavy modal vs a light badge should have → **read** `research-data/animation_physical_weight.md` §9 (The Overshoot Paradox) **for** why the physics-correct answer (heavy bounces more) is wrong for UI convention, with the exact y2 values that maintain authority (1.03-1.05 for heavy) vs playfulness (1.3-1.56 for light)
+- **When** building a card press or number counter reveal and need exact scaleX/scaleY keyframe values → **read** `research-data/animation_12_principles.md` §1 (Squash and Stretch) **for** three CSS implementation recipes with exact keyframe percentages, cubic-bezier values, and duration per interaction type
+- **When** deciding if a 200px-travel animation should be 300ms or 500ms → **read** `research-data/animation_physical_weight.md` §4 (Duration Scaling) **for** the distance adjustment formula (+30-50ms per 100px beyond 30px) and the secondary action timing rules (start 100-300ms after primary, max 15% visual weight)
+
+---
+
 ## Open Questions
 
 - The overshoot paradox (physics says heavy bounces more, UI convention says less) has not been A/B tested -- the convention may be wrong for certain contexts

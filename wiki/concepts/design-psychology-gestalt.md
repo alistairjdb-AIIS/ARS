@@ -201,6 +201,15 @@ When a site is close enough to premium to trigger premium expectations but has m
 
 ---
 
+## Deep Reference
+
+- **When** designing a dark-mode health UI and choosing background color, accent strategy, and spacing → **read** `research-data/dark_mode_health_ui_research.md` (full file) **for** exact hex values from WHOOP (`#0B0B0B`), Oura, Apple Health, and Strava, their accent color strategies (WHOOP uses single red regardless of signal valence), the 20-30% more spacing rule for dark backgrounds, and why near-black reads as "designed this way" while mid-gray reads as "dark mode added"
+- **When** calibrating calculator result reveal timing to maximize dopamine anticipation without feeling manipulative → **read** `research-data/design_psychology_research.md` §(Dopamine and Interface Design) **for** the 400-600ms apparent calculation delay sweet spot, the 100ms vs 200ms feedback threshold (200ms disconnects), progress bar completion compulsion from Gestalt closure, and the ethical boundary between fixed-consistent delay (acceptable) and variable delay (manipulative)
+- **When** a design feels "almost premium but something is off" and you need to diagnose the uncanny valley trigger → **read** `research-data/design_psychology_research.md` §(Uncanny Valley of Web Design) **for** the five specific micro-violation triggers (spacing inconsistency, easing mismatch, color near-miss, typography scale gaps, content/quality mismatch) and the intentionality test that distinguishes designed asymmetry from broken asymmetry
+- **When** applying color psychology and need the systematic review evidence rather than pop-psychology → **read** `research-data/design_psychology_research.md` §2 (Color Psychology) **for** the saturation-arousal link from systematic review data, warm/cool cultural variation caveats, and the finding that saturation matters more than hue for arousal
+
+---
+
 ## Open Questions
 
 - Most UX animation research is on consumer apps and e-commerce, not health calculators. Task-focused users may respond differently to dopamine patterns and pacing than browsing/leisure users.

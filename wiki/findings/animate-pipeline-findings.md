@@ -105,6 +105,14 @@ These patterns work because they match how the /animate FEEL step processes timi
 
 ---
 
+## Deep Reference
+
+- **When** applying /animate and need to calibrate restraint level for the content register → **read** `memory/feedback-character-prompt-specificity.md` §(v19 finding + v20 nuance) **for** the evidence that v19's value was in what /animate helped leave out (no impossible steam, better framing from NOT specifying camera), while v20's failure was applying v19's restraint to energetic content where it didn't fit — the FEEL step must match content's emotional register, not default to previous session's winning approach
+- **When** deciding whether the /animate pipeline or direct craft is better for a specific subject → **read** `memory/project-curriculum-elements.md` §(v19-v20 results) **for** the 1-1 score showing /animate won on subtle emotional content (v19 photoreal human), lost on energetic spectacle (v20 stylized creature), and the operator diagnosis that the framework works but the agent applied it with recency bias
+- **When** progressive disclosure pacing is part of the /animate design and need confirmed timing patterns → **read** `memory/feedback-animation-pacing.md` (full file) **for** the operator-validated patterns: dimming prior content when introducing contrasts, 1.8s beat drop pause before reveals, staggered bar reveals, and "pacing as material, not just motion"
+
+---
+
 ## Open Questions
 
 - N=2 is not enough to establish the restraint-matching pattern. What is the minimum N needed per content register?

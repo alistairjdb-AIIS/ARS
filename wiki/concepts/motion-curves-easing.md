@@ -165,6 +165,15 @@ Easing function complexity has no meaningful performance cost difference. [VERIF
 
 ---
 
+## Deep Reference
+
+- **When** deciding whether to use CSS `linear()` or cubic-bezier for a spring animation → **read** `research-data/animation_motion_curves.md` §3 (CSS linear()) **for** the mathematical limitation that makes cubic-bezier incapable of oscillation, a ready-made 40-point spring data array, Safari support status (No as of Mar 2026 = ~12% gap), and the progressive-enhancement fallback strategy
+- **When** a transition feels wrong and you need to diagnose whether it's stiffness, damping, or mass → **read** `research-data/animation_motion_curves.md` §4 (Spring Physics) **for** the damping ratio formula (`zeta = c / (2*sqrt(k*m))`), regime definitions (underdamped/critically damped/overdamped), and how each parameter independently changes feel (high stiffness + low damping = tense; low stiffness + high damping = gentle)
+- **When** defining motion tokens for a new brand and choosing between Material Design's spatial approach vs Apple's physics approach → **read** `research-data/animation_motion_curves.md` §5-6 **for** MD3's exact duration tokens (Short 1 = 50ms through Long 4 = 600ms), Apple's default `.spring(response: 0.55, dampingFraction: 0.825)`, IBM Carbon's two-curve system (Productive vs Expressive with exact cubic-bezier values), and the philosophical disagreement that determines which approach fits
+- **When** an animation stutters and you suspect a performance issue → **read** `research-data/animation_motion_curves.md` §8 (Performance) **for** the safe-to-animate property list (only `transform` and `opacity` are GPU-composited), the 16.7ms frame budget breakdown, and why `will-change` solves one problem but creates VRAM pressure
+
+---
+
 ## Open Questions
 
 - Safari linear() support is a critical gap for spring-dependent motion systems -- check caniuse before every production deployment

@@ -297,6 +297,14 @@ Add explicit constraints to prompts: limited colors, limited elements, single ty
 
 ---
 
+## Deep Reference
+
+- **When** choosing between V3 and V4 models and need the capability split → **read** `research-data/recraft_v4_operational_reference.md` §2 (Models) **for** the 6-tier model table with exact pricing (V4 $0.04 standard, $0.25 pro, $0.08 vector, $0.30 pro_vector), resolution, timing, and the critical fact that V3 is still required for inpainting, image-to-image, style parameter, negative prompts, and `text_layout`
+- **When** using the API and need the complete endpoint reference → **read** `research-data/recraft_v4_operational_reference.md` §3 (Every API Endpoint) **for** all generation endpoints (generations, explore, explore/similar), all editing endpoints (V3 only: imageToImage, inpaint, replaceBackground, eraseRegion), the `controls` object for V4 (colors, background_color), and the V4 Explore feature (8 diverse directions at 2x cost)
+- **When** deciding between Recraft and Imagen 4 for a specific use case → **read** `research-data/recraft_v4_operational_reference.md` §(Decision Matrix vs Imagen 4) **for** the use-case comparison (Recraft wins on SVG, design composition, brand consistency; Imagen on photorealism), prompt engineering differences, and failure mode catalog
+
+---
+
 ## Open Questions
 
 - V4 style creation via API -- when will V4 support the `style` parameter? Currently prompt-only for V4 [THEORETICAL]

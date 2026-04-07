@@ -111,6 +111,14 @@ This veto is confirmed for photoreal renders. Transfer to stylized characters or
 
 ---
 
+## Deep Reference
+
+- **When** writing a photoreal prompt and need to check whether any language invites too-clean execution → **read** `memory/feedback-too-perfect-veto.md` §(Layer 2 — Prompt writing) **for** the avoid list ("flawlessly," "perfectly uniform," "evenly spaced," "smoothly symmetric," deterministic fluid specs), the prefer list ("irregular," "natural imperfection," "slight deviations"), and why loose motion specs ("slow drip") beat precise ones ("viscous stream")
+- **When** judging an A/B pair and one output looks technically superior but "off" → **read** `memory/feedback-too-perfect-veto.md` §(Layer 1 — Output judgment) **for** the evidence chain from v2/v3/v8/v10 showing ONE tell vetoes regardless of aggregate quality, and why the operator said "B looks sort of too good... too perfect and when it's too perfect, it's not realistic"
+- **When** prompting for imperfection in photoreal human faces and skin → **read** `research-data/photoreal_humans_research.md` [SOURCE FORMAT: conversation JSON — search for "imperfection prompting" and "skin texture"] **for** specific imperfection descriptors that break the too-clean aesthetic (laugh lines, age spots, crooked nose, pores), and the film grain / film look technique for introducing organic variance
+
+---
+
 ## Open Questions
 
 - Does the too-perfect veto apply to stylized registers (Pixar, anime) or only photoreal?

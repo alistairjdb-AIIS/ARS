@@ -111,6 +111,14 @@ Application to Reels structure:
 
 ---
 
+## Deep Reference
+
+- **When** mixing voice and background music and need exact dB levels → **read** `research-data/educational_reels_voiceover_2026.md` §(Audio Mix) **for** voice at -16 LUFS (Instagram standard), background music bed at -18 to -24 dB below voice, and why burned-in animated captions outperform auto-captions
+- **When** the voiceover sounds meditational instead of authoritative and need to diagnose → **read** `research-data/educational_reels_voiceover_2026.md` §(Smooth-Authoritative vs Meditational) **for** the dimension-by-dimension comparison table (pace 100-120 WPM = meditational vs 130-150 = target, 1-2s contemplative pauses = meditational vs 0.3-0.5s functional, "guide you inward" energy = rejected vs "show you something" = target)
+- **When** deciding when to show text on screen vs let voice carry → **read** `research-data/educational_reels_voiceover_2026.md` §(Voice + Text Relationship) **for** Mayer's Redundancy Principle applied per segment: hook (0-2s) = full sentence + voice simultaneously, body (2s+) = voice carries full info + 2-5 keyword phrases only, stat reveals = number on screen 0.3s BEFORE voice says it, CTA = voice + text together
+
+---
+
 ## Open Questions
 
 - Does the 120-140 WPM German target hold for medical/scientific content where terminology is dense? Slower pace might aid comprehension of technical terms.

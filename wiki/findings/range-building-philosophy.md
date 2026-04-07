@@ -102,6 +102,12 @@ It would be supported if:
 
 ---
 
+## Deep Reference
+
+- **When** evaluating the product hypothesis and need the complete vision with verifiable claims → **read** `memory/project-design-product-vision.md` (full file) **for** the product shape (free tier: URL + questions → redesign, paid tier: iterations, scope expansion: build-for-you), the moat hypothesis (research agent continuously feeding new frameworks), what's verifiable vs what's speculative, and the explicit scope boundary (health project remains priority, this vision is context not directive)
+
+---
+
 ## Open Questions
 
 - Is the product hypothesis worth testing now, or should it remain context until the current project reaches a milestone?

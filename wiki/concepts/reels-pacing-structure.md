@@ -134,6 +134,14 @@ This template follows Mayer's Redundancy Principle: graphics + narration outperf
 
 ---
 
+## Deep Reference
+
+- **When** building the beat-timed structure for a 12-15s educational Reel → **read** `research-data/educational_reels_voiceover_2026.md` §(Structure Template) **for** the exact timestamp template (0-0.5s hook, 0.5-2s problem, 2-2.5s transition with 0.3s pause, 2.5-8s explanation, 8-8.5s beat drop, 8.5-10s stat reveal, 10-12s context, 12-15s CTA) with voice/text rules per segment
+- **When** choosing Reel length and need the optimal duration data → **read** `research-data/instagram_reels_best_practices_2025.md` §(Reel Length) **for** the 7-15s highest completion finding (CreatorsJet, 500 viral Reels analysis, MEDIUM confidence), content-type pacing map, the looping bonus for short Reels, and why 60-90s Reels can work for highly engaged niche audiences
+- **When** deciding cut rate for a specific content type → **read** `research-data/instagram_reels_best_practices_2025.md` §(Cut Rate) **for** the 1.5-3s cut rate consensus, the 4-second danger zone threshold, and the music/audio findings that affect perceived pacing
+
+---
+
 ## Open Questions
 
 - Does the "4-second danger zone" hold for niche content with highly engaged audiences (e.g., medical education for practitioners)? The finding is from general Reels data, not vertical-specific.

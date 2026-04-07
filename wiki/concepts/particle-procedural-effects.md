@@ -194,6 +194,15 @@ Flow field = grid of angle vectors, each driven by Perlin noise. Particles sampl
 
 ---
 
+## Deep Reference
+
+- **When** choosing between CSS, Canvas, and WebGL for a particle effect and need the performance ceiling per approach → **read** `research-data/sfx_particle_systems.md` §6 (Performance Engineering) **for** the Canvas/DOM/WebGL decision table with particle count thresholds (~30 CSS, 100-300 Canvas 2D, 10,000+ WebGL), OffscreenCanvas worker threading pattern, and requestAnimationFrame budget analysis
+- **When** tuning particle opacity decay and the fade feels wrong (too abrupt or too lingering) → **read** `research-data/sfx_particle_systems.md` §2.4 (Opacity Decay Curves) **for** four JS decay formulas (linear, ease-out holds bright then snaps, ease-in dims immediately, bell curve for sparkle/glow) with exact `Math.pow` and `Math.sin` implementations
+- **When** building a completion fireworks effect and need burst parameters → **read** `research-data/sfx_particle_systems.md` §4 (Reactive Particles) **for** click burst specs (8-20 particles, radial velocity, ~60 frame lifetime), fireworks specs (3-5 staggered bursts, 20-40 particles each, 2-3s lifetime), and the one-element-only restraint rule
+- **When** adding atmospheric fog or smoke and need the physics modifiers → **read** `research-data/sfx_particle_systems.md` §2.3 (Physics Modifiers) **for** gravity (vy += 0.05-0.3/frame), wind (vx += 0.01-0.1/frame), drag (velocity *= 0.95-0.99), and Perlin noise turbulence parameter ranges
+
+---
+
 ## Open Questions
 
 - OffscreenCanvas browser support should be verified against specific target audience before depending on worker-based rendering

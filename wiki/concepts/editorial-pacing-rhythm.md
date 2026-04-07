@@ -168,6 +168,15 @@ Each element in a sequence delivers content AND transforms the interpretive fram
 
 ---
 
+## Deep Reference
+
+- **When** deciding whether to sacrifice spatial continuity for emotional impact in a UI transition → **read** `research-data/directing_editorial_pacing.md` §1 (Murch's Rule of Six) **for** the exact percentage weights (Emotion 51%, Story 23%, Rhythm 10%, Eye-trace 7%, Planarity 5%, Spatial 4%) and the sacrifice-up-from-bottom rule that justifies emotionally right but spatially wrong transitions
+- **When** choosing between hard cut, dissolve, and match cut between two content states → **read** `research-data/directing_editorial_pacing.md` §3 (Six Cut Types) **for** the semantic meaning of each cut type (hard cut = causality, dissolve = time passage, wipe = location change, match cut = conceptual link) and the UI mapping that translates each to CSS transitions
+- **When** pacing a multi-scene sequence and it feels monotonous → **read** `research-data/cross_domain_pattern_synthesis.md` §5 (Rhythm/Pacing) and §15 (Tempo/Rate) **for** the pink-noise (1/f) optimality principle, the rule that systems respond to derivatives not states (acceleration matters more than speed), and the fermata rule (the hold is the loudest moment)
+- **When** building suspense before a result reveal → **read** `research-data/directing_editorial_pacing.md` §5 (Hitchcock's Rules) **for** the bomb-under-the-table principle (showing the audience what the character doesn't know creates more tension than surprise), and the UI application to loading states that preview calculation dimensions
+
+---
+
 ## Open Questions
 
 - All UI applications of film techniques are inferred from film principles, not derived from UX research studies

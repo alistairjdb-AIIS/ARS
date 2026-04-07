@@ -281,6 +281,15 @@ After 20+ uses, these sounds carry brand association. Sonic logos trigger emotio
 
 ---
 
+## Deep Reference
+
+- **When** choosing voice settings (stability, similarity_boost, style, speed) for a specific delivery register → **read** `research-data/elevenlabs_sound_design_research.md` §(TTS API) **for** the full parameter table with ranges and tradeoffs (lower stability = more emotional range but less consistent, speed 0.7-1.2 with extremes degrading quality), output format selection (mp3_44100_128 for production, pcm for post-processing), and request chaining for long-form consistency
+- **When** crafting an SFX prompt and the output doesn't match expectations → **read** `research-data/elevenlabs_sound_design_research.md` §(Sound Effects) **for** the `prompt_influence` parameter (0.3 default, higher = stricter adherence), the `duration_seconds` cost difference (auto = 200 credits flat, manual = 40 credits/second), and audio tag prompt engineering patterns
+- **When** setting up the audio mix for a Reel and need voice/music level targets → **read** `research-data/elevenlabs_sound_design_research.md` §(Mixing Patterns) **for** voice at -16 LUFS, background music at -18 to -24 dB below voice, film sound design craft (silence as emphasis, sound arrives before visual cut), and operational checklists for production workflow
+- **When** choosing which voice model to use and need the model comparison → **read** `memory/credentials.md` §(ElevenLabs) **for** available model IDs (eleven_v3 latest, eleven_multilingual_v2 for German, eleven_flash_v2_5 for fast), operator-approved DermaMedicum voice IDs (floor: `GOKuAybXPeCM4Mohef91`, preferred: `cuPqa6QTMyQSIYRPBzmy`), and Pro plan credit allocation
+
+---
+
 ## Open Questions
 
 - v3 German quality with dermatological terminology -- general reviews positive, but not tested with specialized medical German [THEORETICAL]

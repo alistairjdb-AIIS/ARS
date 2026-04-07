@@ -166,6 +166,15 @@ Perspective value maps to film lens equivalents: [VERIFIED]
 
 ---
 
+## Deep Reference
+
+- **When** choosing between dolly-in and zoom for a result reveal and the difference feels subtle → **read** `research-data/cinematography_camera_language.md` §1-2 (Dolly In, Dolly Out, Zoom) **for** the critical perceptual difference (dolly changes perspective parallax, zoom compresses depth), CSS implementation using `perspective` + `translateZ` vs pure `scale()`, and the Vertigo effect as the extreme example
+- **When** translating a camera technique to CSS and need the exact `perspective`, `translateZ`, or `transform` values → **read** `research-data/cinematography_camera_language.md` (per technique section) **for** 20 techniques each with CSS implementation code, `perspective: 800px` as default viewing distance, and use-when/avoid-when decision rules
+- **When** choosing an aspect ratio for a Reel or brand film → **read** `research-data/cinematography_camera_language.md` §(Aspect Ratio section) **for** the aspect ratio emotional system (2.39:1 = epic/cinematic, 16:9 = broadcast/neutral, 4:3 = vintage/intimate, 1:1 = graphic/equal), and how ratio choice changes composition constraints
+- **When** prompting Veo or Kling with camera language → **read** `research-data/cinematography_camera_language.md` §(Emotional Register Table) **for** the technique-to-emotion mapping (tracking shot = Common Fate belonging, high angle = vulnerability, low angle = authority) that determines which camera move to specify vs which to leave to the model
+
+---
+
 ## Open Questions
 
 - The CSS implementation examples simulate film techniques but the precise emotional response to CSS-animated perspective changes has not been empirically tested against native film camera movement. Assume approximation, not equivalence. [UNVERIFIED]

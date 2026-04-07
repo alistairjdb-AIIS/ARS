@@ -163,6 +163,15 @@ Pure black and near-black are premium signals. Mid-dark-gray reads as "we added 
 
 ---
 
+## Deep Reference
+
+- **When** deciding key-to-fill ratio for a UI section and need to match mood → **read** `research-data/cinematography_lighting_design.md` §1 (Three-Point Lighting) **for** the ratio-to-mood table (1:1 = flat/commercial, 2:1 = broadcast, 4:1 = dramatic, 8:1+ = noir) with CSS `box-shadow` opacity equivalents for each ratio
+- **When** choosing between high-key and low-key lighting for a dark-mode health UI → **read** `research-data/dark_mode_health_ui_research.md` (App-by-App Analysis) **for** exact hex values used by WHOOP (`#0B0B0B`), Oura, Apple Health, and Strava, their accent color strategies (WHOOP = single red, no green/red valence), typography-on-dark approaches, and why dark-by-default reads as premium
+- **When** implementing CSS shadow that simulates a consistent light source → **read** `research-data/cinematography_lighting_design.md` §1 (CSS Mapping Rule) **for** the offset-direction reversal rule (light upper-left → shadow lower-right), the dual-shadow formula for key + fill, and the Material Design codification that requires global light source consistency across all elements
+- **When** applying color temperature to set mood and need to choose between warm and cool → **read** `research-data/cinematography_lighting_design.md` §4 (Color Temperature) **for** the Kelvin-to-emotion mapping, golden hour as universal trust signal, cool blue as clinical/precision, and the CSS gradient technique that simulates color temperature shifts across the page
+
+---
+
 ## Open Questions
 
 - Whether the "consistency-of-light-source" rule is a cinematographer's concern or a measurable UX concern. If user testing shows users do not notice mixed shadow directions, the rule may be less critical for web than for film.

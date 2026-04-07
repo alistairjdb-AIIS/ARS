@@ -171,6 +171,14 @@ Sweet spot for Veo 3.1: micro-action sequence and full cluster levels. [VERIFIED
 
 ---
 
+## Deep Reference
+
+- **When** building a Pixar-style character prompt and need shape language that produces specific personality reads → **read** `research-data/character_design_acting_research.md` [SOURCE FORMAT: conversation JSON — search for "shape language" and "proportion systems"] **for** the shape-to-personality mapping (circles = friendly, squares = stable, triangles = threatening), proportion systems (toushin head-count table), the 60-30-10 color rule, and how dominant + secondary shapes combine (hero = square + round)
+- **When** Pixar prompts produce generic output and you suspect model priors are overriding → **read** `memory/project-curriculum-elements.md` §(Element 3 — Stylized characters) **for** the style impact ranking ("Pixar most consistent" = strongest model priors), the v13-v14 split (camera specification lost, acting specificity won), and why Pixar's painterly quality "forgives drift that photoreal cannot"
+- **When** deciding whether to specify camera or leave it to the model for Pixar-style output → **read** `memory/feedback-character-prompt-specificity.md` (full file) **for** the v13 evidence (pre-research heavy camera specification lost to terse) vs v14 (post-research acting chain won), confirming that acting chains are the right place to spend prompt tokens for this register
+
+---
+
 ## Open Questions
 
 - Why does crafted prompting help less for Pixar than anime? Is it the stronger model priors, or is 1-1 simply insufficient N? [TESTED at N=2, needs more]

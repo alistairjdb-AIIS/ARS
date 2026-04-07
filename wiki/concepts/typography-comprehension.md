@@ -225,6 +225,15 @@ Both serve the same message. Content is not dumbed down for scanners or padded f
 
 ---
 
+## Deep Reference
+
+- **When** setting line length for a health calculator result page and need the optimal CPL range → **read** `research-data/typography_comprehension.md` §1 (Line Length) **for** the 45-75 CPL research consensus, the mobile exception (35-50 CPL), the NNGroup eyetracking finding on reading order, and why full-viewport text on 1440px+ screens crosses into comprehension-degrading territory
+- **When** choosing between serif and sans-serif for health data display → **read** `research-data/typography_comprehension.md` §5 (Serif vs Sans-Serif) **for** the Visible Language 2025 finding that familiarity trumps category, the 40% trustworthiness claim (widely cited, poorly sourced), and the practical recommendation that x-height and stroke contrast matter more than serif/sans classification
+- **When** designing dark-mode typography and text looks washed out or hard to read → **read** `research-data/typography_comprehension.md` §4 (Dark Mode Contrast) **for** the halation effect (light text bleeds on dark backgrounds), the font-weight increase recommendation for dark mode, the WCAG contrast ratios, and the ACM 2025 finding that dark mode is actually better for complex tasks
+- **When** building a scanner-to-reader conversion pattern for dense health content → **read** `research-data/typography_comprehension.md` §7 (Scannable-but-Deep) **for** the progressive disclosure typography architecture, heading hierarchy that enables scanning, and the white space comprehension improvement finding (20% — directional, not precisely sourced)
+
+---
+
 ## Open Questions
 
 - Whether dark mode comprehension depends on ambient light. The 2025 ACM finding (dark mode better for complex tasks) may interact strongly with ambient lighting conditions. This variable is not controlled in most studies.

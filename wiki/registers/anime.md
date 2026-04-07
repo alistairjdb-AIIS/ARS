@@ -151,6 +151,14 @@ Eye design is the #1 register signal. Specifying eye style often triggers the br
 
 ---
 
+## Deep Reference
+
+- **When** prompting for a specific anime sub-register (shonen vs shojo vs seinen) and the output is generic → **read** `research-data/character_design_acting_research.md` [SOURCE FORMAT: conversation JSON — search for "anime sub-register" and "anime visual language"] **for** sub-register taxonomy with visual characteristics, color grammar per register (shonen = high saturation primary, seinen = muted earth tones), lighting toolkit, and specific prompt triggers that activate each sub-register
+- **When** the output drifts to 3D/Pixar instead of 2D anime → **read** `memory/project-curriculum-elements.md` §(Element 3 — Stylized characters) **for** the v15 style drift confound, the finding that "animated" prompts can drift toward 3D training data, and the beat-count limit (~5 acting beats in 8s causes visible scene transitions)
+- **When** writing an acting chain for an anime character and need to calibrate specificity level → **read** `memory/feedback-character-prompt-specificity.md` (full file) **for** the v14 evidence that acting-chain specificity helps but camera choreography hurts, the "be the acting director, not the DP" rule, and why restraint in camera specification lets models choose better anime-specific composition
+
+---
+
 ## Open Questions
 
 - Does naming a specific anime director (e.g., "Shinkai style") outperform describing the visual features in Veo video generation? (Tested in image models, not systematically in video) [THEORETICAL]

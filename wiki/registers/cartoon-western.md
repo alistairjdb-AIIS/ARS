@@ -275,6 +275,14 @@ Understanding how cartoon motion differs from adjacent registers helps avoid cro
 
 ---
 
+## Deep Reference
+
+- **When** choosing between era+studio anchoring ("1960s Hanna-Barbera") vs technical descriptors ("thick outlines, flat colors") and need the full sub-register taxonomy → **read** `research-data/cartoon_animation_styles_research.md` [SOURCE FORMAT: conversation JSON — search for "sub-register" and "8 sub-registers"] **for** the 8 sub-register breakdown with visual characteristics, prompt templates per sub-register, exaggeration spectrum, line weight taxonomy, color approach per style, and AI behavior patterns and failure modes
+- **When** the output drifts to anime or 3D instead of staying in 2D cartoon → **read** `research-data/cartoon_animation_styles_research.md` [SOURCE FORMAT: conversation JSON — search for "style drift"] **for** documented drift patterns between cartoon/anime/3D registers, the reference image strategy for anchoring style, and which model training data biases cause drift
+- **When** judging whether a cartoon output captures the right timing (cartoon exaggeration vs realistic physics) → **read** `memory/project-curriculum-elements.md` §(Element 3, v17) **for** the v17 cartoon crafted 1-0 result with bias-controlled evaluation, and the cross-register scoring context that positions cartoon relative to anime (3-0) and Pixar (1-1)
+
+---
+
 ## Open Questions
 
 - Does era+studio anchoring (`"1960s Hanna-Barbera"`) outperform technical descriptors (`"thick outlines, flat colors"`) in video models? [THEORETICAL — untested]

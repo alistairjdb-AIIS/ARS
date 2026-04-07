@@ -155,6 +155,15 @@ Five choreography principles appear independently in IBM Carbon, Material Design
 
 ---
 
+## Deep Reference
+
+- **When** a card grid reveal needs to radiate from a focal point and you need GSAP stagger syntax → **read** `research-data/animation_choreography.md` §1d (Grid-Based Radial Stagger) **for** the `grid: "auto"` option that uses `getBoundingClientRect()` to auto-detect layout, `axis: null` for true radial ripple, and the complete GSAP `stagger` object with `amount`, `from`, `grid`, `axis` parameters
+- **When** deciding which element should animate first in a multi-element group → **read** `research-data/animation_choreography.md` §2 (The Conductor Model) **for** the rule that conductor assignment follows TASK hierarchy not visual hierarchy, lead/body/tail offset values (40-80ms body, 80-150ms tail), and the "breath" pattern where inhale = elements gather inward, exhale = expand to final positions
+- **When** a sequence of 10+ staggered elements feels like slow loading rather than animation → **read** `research-data/animation_choreography.md` §1b (Grouped Burst Pattern) **for** how grouping elements by function (structural → content → actions) with 80-120ms inter-group delay eliminates the slideshow problem, and the 3-7 items per group ceiling
+- **When** elements exit in the same direction they entered and it feels like the screen is draining → **read** `research-data/animation_choreography.md` §4 (Exit Choreography) **for** the three exit strategies (reverse order, simultaneous fade, cascade outward), the exit stagger halving rule (entrance 50ms → exit 25ms), and when to eliminate exit stagger entirely
+
+---
+
 ## Open Questions
 
 - "Lead and follow" improving perceived quality has not been directly A/B tested (only NNGroup on duration indirectly touches this)

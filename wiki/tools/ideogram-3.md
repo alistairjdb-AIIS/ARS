@@ -307,6 +307,14 @@ Describe explicit size relationships: "large bold headline, medium-weight subtit
 
 ---
 
+## Deep Reference
+
+- **When** generating text-in-image and need the key settings that prevent magic_prompt from rewriting your typography → **read** `research-data/ideogram_3_visual_text_research.md` §(API Reference) **for** `magic_prompt: OFF` as mandatory for text work, `style_type: DESIGN` for consistent graphic output, the 15 aspect ratio options, 70 exact resolution options, and the 4 rendering speed tiers (FLASH/TURBO/DEFAULT/QUALITY) with cost tradeoffs
+- **When** choosing a style preset and need the full list of 58 options → **read** `research-data/ideogram_3_visual_text_research.md` §(Style Presets) **for** the complete preset catalog organized by category, incompatibility rules (style_codes vs style_reference_images vs style_type), and the color palette system (8 named presets: EMBER, FRESH, JUNGLE, MAGIC, MELON, MOSAIC, PASTEL, ULTRAMARINE, plus custom hex with weights 0.05-1.0)
+- **When** designing title cards or social media graphics with typography and need craft principles → **read** `research-data/ideogram_3_visual_text_research.md` §(Typography Craft) **for** poster/editorial/advertising typography principles adapted to AI text generation, failure modes (text bleeding, character substitution, kerning issues), and the prompting patterns that produce reliable multi-line text
+
+---
+
 ## Open Questions
 
 - Exact pricing for character reference generations -- higher rate not publicly documented [THEORETICAL]
