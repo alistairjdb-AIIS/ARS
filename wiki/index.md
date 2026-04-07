@@ -1,6 +1,6 @@
 # Knowledge Wiki Index
 
-Last updated: 2026-04-06
+Last updated: 2026-04-07
 
 ## concepts/
 
@@ -38,6 +38,7 @@ Last updated: 2026-04-06
 | C30 | [storytelling-narrative-structures](concepts/storytelling-narrative-structures.md) | Hero's journey, Kishotenketsu, Vonnegut shapes, micro-storytelling |
 | C31 | [sme-buyer-psychology](concepts/sme-buyer-psychology.md) | SME protect time/money, pricing transparency, 5 distrust triggers |
 | C32 | [competitive-landscape-animation](concepts/competitive-landscape-animation.md) | 5 market tiers, identified whitespace |
+| C33 | [continuity-editing-scene-flow](concepts/continuity-editing-scene-flow.md) | Continuity editing rules, invisible cuts, overlap, audio bridges, AI clip chaining |
 
 ## tools/
 
