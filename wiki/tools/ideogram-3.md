@@ -246,6 +246,7 @@ A [brand style] branded image. [Visual description]. Brand name
 **Known failure modes:**
 - Long text (8+ words single block): letters merge, swap, garble [VERIFIED]
 - Multiple text blocks (3+) with specific positions: model conflates locations [VERIFIED]
+- **Multi-panel comic pages (6+ text blocks at grid positions): decisively fails** — session 37 test (comic-v1 FACT LAB, 6-panel 2x3 grid, 4 variants via `num_images=4` + QUALITY) produced garbled text ("WCH TEAD ECHAIN FOL", "SPAL AROM", "Eadmer med"), broken grids (1+2+3 layout instead of 2x3), repeated panels ("EACH ARM THINKS" rendered 3x in same page), and character drift across panels. All 4 variants unshippable. **Not recommended for multi-panel sequential art** — use NB2 (Gemini 3.1 Flash Image) or Recraft V4 for comic format. Ideogram stays in the toolbox for single-piece typography: quote cards, title cards, social posters, infographics. [VERIFIED — comic-v1 session 37]
 - Small text / fine print: illegible or misspelled [VERIFIED]
 - Non-Latin scripts: frequently incorrect [VERIFIED]
 - Human faces at distance: unnatural proportions [VERIFIED]
@@ -301,9 +302,9 @@ Describe explicit size relationships: "large bold headline, medium-weight subtit
 
 ## Related Concepts
 
-- [[recraft-v4]] -- Recraft has better design composition and native SVG; Ideogram has more style presets and stronger text rendering accuracy
-- [[veo-3-1]] -- Ideogram generates title cards and text overlays for Veo video content
-- [[elevenlabs]] -- Audio layer to pair with Ideogram-generated visual cards
+- [[recraft-v4]] — CONTRASTS: Recraft has better design composition and native SVG; Ideogram has more style presets and stronger text rendering accuracy
+- [[veo-3-1]] — INFORMS: Ideogram generates title cards and text overlays for Veo video content
+- [[elevenlabs]] — INFORMS: audio layer to pair with Ideogram-generated visual cards
 
 ---
 
