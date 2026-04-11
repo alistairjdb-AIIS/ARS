@@ -1,0 +1,14 @@
+{
+  "brief": "Red panda cub discovers fresh bamboo shoot, 5s, 16:9 landscape",
+  "model": "veo3.1_fast (Runway)",
+  "A": {
+    "path": "/root/motion-so-analysis/red-panda-ab/red-panda-A-usual-depth.mp4",
+    "prompt_words": 54,
+    "prompt": "A young red panda cub approaches a fresh bamboo shoot in a mossy forest clearing at early morning. Its ears perk forward as it sniffs the shoot, whiskers twitching. It reaches out with a small paw, taps the green stalk \u2014 startles back as the stalk springs. Tail flicks. Anime style, soft morning light."
+  },
+  "B": {
+    "path": "/root/motion-so-analysis/red-panda-ab/red-panda-B-10x-depth.mp4",
+    "prompt_words": 146,
+    "prompt": "Young red panda cub, 6 weeks. Neotenic: oversized head, stocky body, short legs, bushy ringed tail. Russet back, creamy face with black mask-markings, chocolate legs. Dark reflective eyes. Cautious gait.\n\nQuiet bamboo grove, early morning. One fresh pale-green bamboo shoot in damp moss. Ground fog, dappled canopy light.\n\n5 beats: (1) Pauses at moss edge, paw raised, weight back, tail curling. (2) Ears swivel forward, nose lifts, whisker twitches, pupils dilate. (3) Steps onto moss. (4) Taps stalk \u2014 shoot flexes and springs back; cub startles, body compresses, tail fluffs, ears pin back. (5) Ears lift, head tilts, sniffs again.\n\nRegister: traditional 2D Japanese hand-drawn animation, 90s-era cel-shaded, soft line-weight, watercolor backgrounds.\n\nColor 60-30-10: forest greens, warm russets, cream accents.\n\nWarm golden key upper-left, rim on fur, hero beam on shoot. Quiet wonder.\n\nAudio: bamboo rustle, bird call, sniffs, step-pat on moss, whoosh as shoot springs."
+  }
+}
