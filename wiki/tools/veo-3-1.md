@@ -23,7 +23,9 @@
 - **Aspect ratio:** 16:9 confirmed working [TESTED]; 9:16 untested [THEORETICAL]
 - **Sample count:** 1 per request; submit multiple requests for variants [TESTED]
 - **Audio:** Generated jointly with video -- not a separate layer. Include audio cues directly in the prompt. [VERIFIED]
-- **Image-to-video:** May be supported per docs but not exercised in any internal pipeline [THEORETICAL]
+- **Image-to-video:** WORKS on `veo-3.1-fast-generate-preview` via `instances[0].image.bytesBase64Encoded` + `instances[0].image.mimeType`. First frame of output is a near-perfect match of the input image. Verified session 36 Apr 11 (v38-veo-i2v-test). [TESTED]
+- **Chain recipe for long-form (>8s):** render clip 1 text-to-video → extract last frame via `ffmpeg -ss 7.9 -frames:v 1` → feed that frame to clip 2 as `image.bytesBase64Encoded` with a new prompt that continues the scene → repeat 2-4 times → concatenate with ffmpeg. 4 clips × 8s = 32s, fits typical 28-30s brand brief. Cost: ~$4.80 per 30s film (fast tier). [TESTED for single step; 3-clip chain not yet verified]
+- **Known chain caveat:** the object-permanence bug documented below compounds across chained clips. Held items (cans, papers, props) can disappear between frames within a single clip AND between clips. Mitigation: explicitly re-specify held objects in each clip prompt ("continues holding the [object]"), or accept prop drift. [TESTED -- v37 single-clip + v38 single i2v step both exhibited held-object drift]
 
 **API surface:**
 
@@ -148,6 +150,9 @@ Structure demonstrated:
 - Gooseneck-pour steam physics (overly-wide steam artifact) [TESTED]
 - Character consistency across shots (unverified, likely requires image conditioning) [THEORETICAL]
 - Multi-shot sequencing in single prompt (not shown to work) [THEORETICAL]
+- **Object permanence / count across frames** — v37 session 36 caught held-object bugs: a second tallboy can spontaneously appeared in the character's left hand between frames on `liquid_death-b`; an earbud case lid ended up on the BACK of the case after the "open" action on `apple-a`; an earbud morphed shape while lifting out on `apple-b`. Veo does not enforce temporal consistency of held objects on 8s clips. [TESTED -- v37 Apr 11, 3 independent failures in one batch]
+- **Cold-breath rendering reads as cigarette/vape smoke** -- prompts specifying "breath fogging in cold air" render with a smoke-column trajectory and density that reads as smoking rather than condensation. Observed on both `liquid_death-b` (ice cave, steam) and `patagonia-b` (dawn cold air, breath). This is a rendering-realism tell independent of prompt quality. [TESTED -- v37 Apr 11]
+- **Wave-breaking interpretation on "duck under"** -- on `patagonia-a`, "duck under the water as the wave curls" was interpreted as showing the wave BREAKING (whitewater foam fills the frame at clip end) instead of a calm submerge. Veo literalizes action verbs toward dramatic execution. Prompt fix: explicitly state "no wave breaking," which worked on `patagonia-b`. [TESTED -- v37 Apr 11]
 
 **Key finding from blind A/B testing (N=8 photoreal, N=7 stylized):**
 - Primary quality axis is **narrative coherence** (does the output tell ONE physical story?), not prompt depth [TESTED]
