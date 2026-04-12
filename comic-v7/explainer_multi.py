@@ -10,10 +10,10 @@ import os, json, base64, time, hmac, hashlib, struct, requests
 
 OUT = "/root/comic-v7"
 
-# Keys
-VEO_KEY = os.environ.get("VEO_API_KEY", "AIzaSyBPr_-MJ0PGihDVpbQL666iHBfNFqvlLnM")
-KLING_ACCESS = "ANRfHmR8PYdM9PeQtgm48CnL8bDHByB3"
-KLING_SECRET = "aLAnPFbGBfMhmpMQTdE8bkbMdHF4ykHP"
+# Keys — load from environment, never hardcode
+VEO_KEY = os.environ.get("VEO_API_KEY") or os.environ.get("GEMINI_API_KEY")
+KLING_ACCESS = os.environ.get("KLING_ACCESS_KEY")
+KLING_SECRET = os.environ.get("KLING_SECRET_KEY")
 NB2_KEY = VEO_KEY
 
 # ════════════════════════════════════════
