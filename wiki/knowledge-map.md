@@ -3,14 +3,16 @@
 > Auto-generated. Do not edit manually. Rebuilt on every wiki article write.
 > **Consumer:** Agent reads this to trace impact chains, find shared assumptions, and surface patterns.
 
-Last rebuilt: 2026-04-07 18:50
+Last rebuilt: 2026-04-15 20:34
 
 ## Edges
 
 | Source | → | Target | Bidirectional? |
 |--------|---|--------|----------------|
 | bandwidth-loading-field | → | cross-domain-generating-principles | YES |
+| bandwidth-loading-field | → | cross-domain-motion-graphics | YES |
 | bandwidth-loading-field | → | emotion-perception-neuroscience | YES |
+| bandwidth-loading-field | → | scale-rhetoric | YES |
 | bandwidth-loading-field | → | storytelling-narrative-structures | YES |
 | camera-language | → | color-narrative | YES |
 | camera-language | → | continuity-editing-scene-flow | YES |
@@ -27,7 +29,9 @@ Last rebuilt: 2026-04-07 18:50
 | character-design-prompting | → | pixar-3d | YES |
 | character-design-prompting | → | prompting-craft-depth | YES |
 | character-design-prompting | → | too-perfect-veto | YES |
+| character-design-prompting | → | visual-narrative-cross-domain | YES |
 | choreography-stagger | → | continuity-editing-scene-flow | YES |
+| choreography-stagger | → | cross-domain-motion-graphics | YES |
 | choreography-stagger | → | editorial-pacing-rhythm | YES |
 | choreography-stagger | → | motion-curves-easing | YES |
 | choreography-stagger | → | progressive-disclosure-pacing | YES |
@@ -52,8 +56,15 @@ Last rebuilt: 2026-04-07 18:50
 | continuity-editing-scene-flow | → | transitions-state-change | YES |
 | continuity-editing-scene-flow | → | voiceover-audio-design | YES |
 | cross-domain-generating-principles | → | bandwidth-loading-field | YES |
+| cross-domain-generating-principles | → | cross-domain-motion-graphics | YES |
 | cross-domain-generating-principles | → | emotion-perception-neuroscience | YES |
+| cross-domain-generating-principles | → | scale-rhetoric | YES |
 | cross-domain-generating-principles | → | storytelling-narrative-structures | YES |
+| cross-domain-generating-principles | → | visual-narrative-cross-domain | YES |
+| cross-domain-motion-graphics | → | bandwidth-loading-field | YES |
+| cross-domain-motion-graphics | → | choreography-stagger | YES |
+| cross-domain-motion-graphics | → | cross-domain-generating-principles | YES |
+| cross-domain-motion-graphics | → | emotion-perception-neuroscience | YES |
 | design-psychology-gestalt | → | camera-language | YES |
 | design-psychology-gestalt | → | color-narrative | YES |
 | design-psychology-gestalt | → | health-literacy-framing | YES |
@@ -65,14 +76,20 @@ Last rebuilt: 2026-04-07 18:50
 | editorial-pacing-rhythm | → | motion-curves-easing | YES |
 | editorial-pacing-rhythm | → | progressive-disclosure-pacing | YES |
 | editorial-pacing-rhythm | → | transitions-state-change | YES |
+| editorial-pacing-rhythm | → | visual-narrative-cross-domain | YES |
 | emotion-perception-neuroscience | → | bandwidth-loading-field | YES |
 | emotion-perception-neuroscience | → | cross-domain-generating-principles | YES |
+| emotion-perception-neuroscience | → | cross-domain-motion-graphics | YES |
+| emotion-perception-neuroscience | → | scale-rhetoric | YES |
 | emotion-perception-neuroscience | → | storytelling-narrative-structures | YES |
+| emotion-perception-neuroscience | → | visual-narrative-cross-domain | YES |
 | engagement-scoring-matrix | → | competitive-landscape-animation | YES |
 | engagement-scoring-matrix | → | hook-first-half-second | YES |
 | engagement-scoring-matrix | → | reels-algorithm-signals | YES |
 | engagement-scoring-matrix | → | reels-pacing-structure | YES |
 | engagement-scoring-matrix | → | semantic-demand-patterns | YES |
+| engagement-scoring-matrix | → | twitter-x-api | YES |
+| engagement-scoring-matrix | → | twitter-x-growth-mechanics | YES |
 | engagement-scoring-matrix | → | vertical-whitespace-atlas | YES |
 | engagement-scoring-matrix | → | voiceover-audio-design | YES |
 | health-literacy-framing | → | color-narrative | YES |
@@ -84,7 +101,9 @@ Last rebuilt: 2026-04-07 18:50
 | hook-first-half-second | → | reels-algorithm-signals | YES |
 | hook-first-half-second | → | reels-pacing-structure | YES |
 | hook-first-half-second | → | semantic-demand-patterns | YES |
+| hook-first-half-second | → | twitter-x-growth-mechanics | YES |
 | hook-first-half-second | → | vertical-whitespace-atlas | YES |
+| hook-first-half-second | → | visual-narrative-cross-domain | YES |
 | hook-first-half-second | → | voiceover-audio-design | YES |
 | lighting-design | → | camera-language | YES |
 | lighting-design | → | color-narrative | YES |
@@ -119,6 +138,7 @@ Last rebuilt: 2026-04-07 18:50
 | progressive-disclosure-pacing | → | particle-procedural-effects | YES |
 | progressive-disclosure-pacing | → | squash-stretch-weight | YES |
 | progressive-disclosure-pacing | → | transitions-state-change | YES |
+| progressive-disclosure-pacing | → | visual-narrative-cross-domain | YES |
 | prompting-craft-depth | → | ab-test-results | YES |
 | prompting-craft-depth | → | acting-chains-beat-camera | YES |
 | prompting-craft-depth | → | animate-pipeline-findings | YES |
@@ -133,6 +153,8 @@ Last rebuilt: 2026-04-07 18:50
 | reels-algorithm-signals | → | engagement-scoring-matrix | YES |
 | reels-algorithm-signals | → | hook-first-half-second | YES |
 | reels-algorithm-signals | → | reels-pacing-structure | YES |
+| reels-algorithm-signals | → | twitter-x-api | YES |
+| reels-algorithm-signals | → | twitter-x-growth-mechanics | YES |
 | reels-algorithm-signals | → | vertical-whitespace-atlas | YES |
 | reels-algorithm-signals | → | voiceover-audio-design | YES |
 | reels-pacing-structure | → | engagement-scoring-matrix | YES |
@@ -140,10 +162,15 @@ Last rebuilt: 2026-04-07 18:50
 | reels-pacing-structure | → | reels-algorithm-signals | YES |
 | reels-pacing-structure | → | semantic-demand-patterns | YES |
 | reels-pacing-structure | → | voiceover-audio-design | YES |
+| scale-rhetoric | → | bandwidth-loading-field | YES |
+| scale-rhetoric | → | cross-domain-generating-principles | YES |
+| scale-rhetoric | → | emotion-perception-neuroscience | YES |
 | semantic-demand-patterns | → | engagement-scoring-matrix | YES |
 | semantic-demand-patterns | → | hook-first-half-second | YES |
 | semantic-demand-patterns | → | reels-pacing-structure | YES |
 | semantic-demand-patterns | → | sme-buyer-psychology | YES |
+| semantic-demand-patterns | → | twitter-x-api | YES |
+| semantic-demand-patterns | → | twitter-x-growth-mechanics | YES |
 | sme-buyer-psychology | → | competitive-landscape-animation | YES |
 | sme-buyer-psychology | → | semantic-demand-patterns | YES |
 | squash-stretch-weight | → | choreography-stagger | YES |
@@ -153,6 +180,7 @@ Last rebuilt: 2026-04-07 18:50
 | storytelling-narrative-structures | → | bandwidth-loading-field | YES |
 | storytelling-narrative-structures | → | cross-domain-generating-principles | YES |
 | storytelling-narrative-structures | → | emotion-perception-neuroscience | YES |
+| storytelling-narrative-structures | → | visual-narrative-cross-domain | YES |
 | texture-materiality | → | motion-curves-easing | YES |
 | texture-materiality | → | particle-procedural-effects | YES |
 | texture-materiality | → | squash-stretch-weight | YES |
@@ -168,10 +196,21 @@ Last rebuilt: 2026-04-07 18:50
 | transitions-state-change | → | motion-curves-easing | YES |
 | transitions-state-change | → | particle-procedural-effects | YES |
 | transitions-state-change | → | progressive-disclosure-pacing | YES |
+| twitter-x-growth-mechanics | → | engagement-scoring-matrix | YES |
+| twitter-x-growth-mechanics | → | hook-first-half-second | YES |
+| twitter-x-growth-mechanics | → | reels-algorithm-signals | YES |
+| twitter-x-growth-mechanics | → | semantic-demand-patterns | YES |
 | typography-comprehension | → | design-psychology-gestalt | YES |
 | typography-comprehension | → | health-literacy-framing | YES |
 | typography-comprehension | → | lighting-design | YES |
 | typography-comprehension | → | visual-storytelling-mise-en-scene | YES |
+| visual-narrative-cross-domain | → | character-design-prompting | YES |
+| visual-narrative-cross-domain | → | cross-domain-generating-principles | YES |
+| visual-narrative-cross-domain | → | editorial-pacing-rhythm | YES |
+| visual-narrative-cross-domain | → | emotion-perception-neuroscience | YES |
+| visual-narrative-cross-domain | → | hook-first-half-second | YES |
+| visual-narrative-cross-domain | → | progressive-disclosure-pacing | YES |
+| visual-narrative-cross-domain | → | storytelling-narrative-structures | YES |
 | visual-storytelling-mise-en-scene | → | camera-language | YES |
 | visual-storytelling-mise-en-scene | → | color-narrative | YES |
 | visual-storytelling-mise-en-scene | → | design-psychology-gestalt | YES |
@@ -203,11 +242,13 @@ Last rebuilt: 2026-04-07 18:50
 | recraft-v4 | → | kling-ai | YES |
 | recraft-v4 | → | veo-3-1 | YES |
 | runway-gen4 | → | acting-chains-beat-camera | YES |
-| runway-gen4 | → | feedback-never-hardcode-secrets | NO |
 | runway-gen4 | → | kling-ai | YES |
 | runway-gen4 | → | photoreal | YES |
 | runway-gen4 | → | prompting-craft-depth | YES |
 | runway-gen4 | → | veo-3-1 | YES |
+| twitter-x-api | → | engagement-scoring-matrix | YES |
+| twitter-x-api | → | reels-algorithm-signals | YES |
+| twitter-x-api | → | semantic-demand-patterns | YES |
 | veo-3-1 | → | elevenlabs | YES |
 | veo-3-1 | → | ideogram-3 | YES |
 | veo-3-1 | → | kling-ai | YES |
@@ -273,21 +314,21 @@ Last rebuilt: 2026-04-07 18:50
 
 | Article | Total | Inbound | Outbound |
 |---------|-------|---------|----------|
+|character-design-prompting |22 |11 |11 |
 |prompting-craft-depth |20 |10 |10 |
 |narrative-coherence |20 |10 |10 |
-|character-design-prompting |20 |10 |10 |
+|hook-first-half-second |18 |9 |9 |
+|engagement-scoring-matrix |18 |9 |9 |
 |ab-test-results |18 |9 |9 |
+|reels-algorithm-signals |16 |8 |8 |
+|progressive-disclosure-pacing |16 |8 |8 |
 |photoreal |16 |8 |8 |
 |continuity-editing-scene-flow |16 |8 |8 |
-|progressive-disclosure-pacing |14 |7 |7 |
+|visual-narrative-cross-domain |14 |7 |7 |
 |motion-curves-easing |14 |7 |7 |
-|hook-first-half-second |14 |7 |7 |
-|engagement-scoring-matrix |14 |7 |7 |
+|choreography-stagger |14 |7 |7 |
 |visual-storytelling-mise-en-scene |12 |6 |6 |
 |veo-3-1 |12 |6 |6 |
-|transitions-state-change |12 |6 |6 |
-|too-perfect-veto |12 |6 |6 |
-|reels-algorithm-signals |12 |6 |6 |
 
 ## Orphans (zero inbound references)
 
@@ -297,5 +338,5 @@ Last rebuilt: 2026-04-07 18:50
 
 ## Stats
 
-- Total articles: 49
-- Generated: 2026-04-07 18:51
+- Total articles: 54
+- Generated: 2026-04-15 20:34

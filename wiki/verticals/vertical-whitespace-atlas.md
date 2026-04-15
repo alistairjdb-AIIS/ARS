@@ -395,10 +395,10 @@ Saturated format + trending audio past peak + low originality score + slow openi
 
 ## Related Concepts
 
-- [[reels-algorithm-signals]] -- algorithm signals that penalize saturated formats
-- [[hook-first-half-second]] -- hook patterns that work within whitespace
-- [[whitespace-opportunity-framework]] -- the framework for identifying whitespace
-- [[engagement-scoring-matrix]] -- how to score content against these opportunities
+- [[reels-algorithm-signals]] — DEPENDS_ON: algorithm signals that penalize saturated formats
+- [[hook-first-half-second]] — DEPENDS_ON: hook patterns that work within whitespace
+- [[whitespace-opportunity-framework]] — DEPENDS_ON: the framework for identifying whitespace
+- [[engagement-scoring-matrix]] — EXTENDS: how to score content against these opportunities
 
 ---
 

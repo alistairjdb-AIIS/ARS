@@ -342,9 +342,10 @@ Silent film techniques for Reels (most watched with sound off): [VERIFIED -- pra
 
 ## Related Concepts
 
-- [[emotion-perception-neuroscience]] -- Provides the perceptual substrate: pre-attentive processing explains why visual storytelling hits faster than text; peak-end rule explains why story endings dominate memory; arousal-drives-sharing explains which story emotions propagate
-- [[cross-domain-generating-principles]] -- Principle 3 (Progressive Disclosure) is the abstract version of story structure's dependency ordering; Principle 10 (Tension/Resolution) is the abstract version of McKee's Gap and the tension-release cycle
-- [[bandwidth-loading-field]] -- The Loading Principle (value created in preparation) is the design-system version of Hitchcock's suspense principle (the bomb under the table creates more value than the explosion)
+- [[emotion-perception-neuroscience]] — DEPENDS_ON: provides the perceptual substrate: pre-attentive processing explains why visual storytelling hits faster than text; peak-end rule explains why story endings dominate memory; arousal-drives-sharing explains which story emotions propagate
+- [[cross-domain-generating-principles]] — DEPENDS_ON: Principle 3 (Progressive Disclosure) is the abstract version of story structure's dependency ordering; Principle 10 (Tension/Resolution) is the abstract version of McKee's Gap and the tension-release cycle
+- [[bandwidth-loading-field]] — DEPENDS_ON: the Loading Principle (value created in preparation) is the design-system version of Hitchcock's suspense principle (the bomb under the table creates more value than the explosion)
+- [[visual-narrative-cross-domain]] — INFORMS: adds Jo-ha-kyu as orthogonal pacing structure, validates "but/therefore" at neuroscience level via 2025 memory study, provides serial engagement mechanics (Zeigarnik Effect)
 
 ---
 

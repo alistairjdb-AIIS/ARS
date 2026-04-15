@@ -187,10 +187,10 @@ Flow field = grid of angle vectors, each driven by Perlin noise. Particles sampl
 
 ## Related Concepts
 
-- [[texture-materiality]] -- film grain overlays share noise-generation techniques with particle systems (feTurbulence, Perlin noise)
-- [[motion-curves-easing]] -- particle opacity decay curves are easing functions applied to lifetime
-- [[transitions-state-change]] -- particle bursts can serve as transition punctuation (completion fireworks)
-- [[progressive-disclosure-pacing]] -- reactive particles confirm the beat drops in a pacing sequence
+- [[texture-materiality]] — EXTENDS: film grain overlays share noise-generation techniques with particle systems (feTurbulence, Perlin noise)
+- [[motion-curves-easing]] — DEPENDS_ON: particle opacity decay curves are easing functions applied to lifetime
+- [[transitions-state-change]] — INFORMS: particle bursts can serve as transition punctuation (completion fireworks)
+- [[progressive-disclosure-pacing]] — INFORMS: reactive particles confirm the beat drops in a pacing sequence
 
 ---
 

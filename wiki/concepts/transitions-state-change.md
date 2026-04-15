@@ -162,10 +162,10 @@ Three universal rules from Apple, Stripe, Linear, Notion demos: [VERIFIED -- inf
 
 ## Related Concepts
 
-- [[choreography-stagger]] -- multi-element transitions use stagger patterns from choreography
-- [[motion-curves-easing]] -- every transition technique consumes easing curves
-- [[progressive-disclosure-pacing]] -- transitions serve the pacing of information revelation
-- [[editorial-pacing-rhythm]] -- the choice of cut type (hard cut, dissolve, wipe, match cut) is an editorial decision
+- [[choreography-stagger]] — DEPENDS_ON: multi-element transitions use stagger patterns from choreography
+- [[motion-curves-easing]] — DEPENDS_ON: every transition technique consumes easing curves
+- [[progressive-disclosure-pacing]] — INFORMS: transitions serve the pacing of information revelation
+- [[editorial-pacing-rhythm]] — DEPENDS_ON: the choice of cut type (hard cut, dissolve, wipe, match cut) is an editorial decision
 - [[continuity-editing-scene-flow]] — DEPENDS_ON: continuity editing's rules (180-degree rule, match on action, screen direction) govern which transition techniques preserve spatial coherence across state changes
 - [[particle-procedural-effects]] — EXTENDS: particle effects (glitch distortion, liquid dissolve, ambient layers) layer on top of transition techniques to add texture and emotional register to state changes
 

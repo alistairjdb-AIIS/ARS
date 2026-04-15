@@ -148,8 +148,8 @@ These patterns are used by premium SaaS (Linear, Vercel, Stripe) but absent from
 
 ## Related Concepts
 
-- [[semantic-demand-patterns]] -- reference vs validation mode parallels the SME buyer's "show me it works for someone like me" need
-- [[competitive-landscape-animation]] -- SME pricing accessibility is the identified whitespace in the animation market
+- [[semantic-demand-patterns]] — EXTENDS: reference vs validation mode parallels the SME buyer's "show me it works for someone like me" need
+- [[competitive-landscape-animation]] — INFORMS: SME pricing accessibility is the identified whitespace in the animation market
 
 ---
 

@@ -341,14 +341,14 @@ Across cuts, follow-through of one movement blends into anticipation of the next
 
 ## Related Concepts
 
-- [[editorial-pacing-rhythm]] -- Murch's Rule of Six and cut-rhythm mechanics; this article extends those principles to inter-clip continuity
-- [[transitions-state-change]] -- transition types and their semantic meanings; this article adds the continuity-specific rules for when transitions should be invisible vs visible
-- [[camera-language]] -- camera vocabulary for prompts; continuity rules constrain which camera moves can follow which
-- [[voiceover-audio-design]] -- audio specifications; this article adds audio as a continuity bridge, not just a content layer
-- [[narrative-coherence]] -- the one-physical-story test; continuity across clips is narrative coherence across time
-- [[choreography-stagger]] -- multi-element timing within clips; this article addresses timing BETWEEN clips
-- [[color-narrative]] -- Pixar color scripts and color arc planning appear in both articles from different angles
-- [[progressive-disclosure-pacing]] -- pacing as information revelation; this article adds pacing as continuity mechanism
+- [[editorial-pacing-rhythm]] — EXTENDS: Murch's Rule of Six and cut-rhythm mechanics; this article extends those principles to inter-clip continuity
+- [[transitions-state-change]] — EXTENDS: transition types and their semantic meanings; this article adds the continuity-specific rules for when transitions should be invisible vs visible
+- [[camera-language]] — DEPENDS_ON: camera vocabulary for prompts; continuity rules constrain which camera moves can follow which
+- [[voiceover-audio-design]] — EXTENDS: audio specifications; this article adds audio as a continuity bridge, not just a content layer
+- [[narrative-coherence]] — DEPENDS_ON: the one-physical-story test; continuity across clips is narrative coherence across time
+- [[choreography-stagger]] — EXTENDS: multi-element timing within clips; this article addresses timing BETWEEN clips
+- [[color-narrative]] — DEPENDS_ON: Pixar color scripts and color arc planning appear in both articles from different angles
+- [[progressive-disclosure-pacing]] — EXTENDS: pacing as information revelation; this article adds pacing as continuity mechanism
 
 ---
 

@@ -168,9 +168,9 @@ Current practitioner consensus: suggest, don't simulate. Three principles:
 
 ## Related Concepts
 
-- [[particle-procedural-effects]] -- shares noise-generation techniques (feTurbulence, Perlin noise) with grain implementations
-- [[squash-stretch-weight]] -- motion weight and visual texture weight work together to create coherent physical presence
-- [[motion-curves-easing]] -- material behavior (glass fluidity, metal rigidity) must match the motion curves applied to that element
+- [[particle-procedural-effects]] — EXTENDS: shares noise-generation techniques (feTurbulence, Perlin noise) with grain implementations
+- [[squash-stretch-weight]] — DEPENDS_ON: motion weight and visual texture weight work together to create coherent physical presence
+- [[motion-curves-easing]] — DEPENDS_ON: material behavior (glass fluidity, metal rigidity) must match the motion curves applied to that element
 
 ---
 

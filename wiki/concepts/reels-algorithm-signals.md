@@ -123,12 +123,14 @@ These are combined into a relevance score using content features (visual, audio,
 
 ## Related Concepts
 
-- [[hook-first-half-second]] -- the 1.7s attention window is the creative input that maps to the algorithm's 3s measurement gate
-- [[engagement-scoring-matrix]] -- operationalizes these algorithm signals into a scoring framework
-- [[reels-pacing-structure]] -- pacing rules derived from these algorithmic requirements
-- [[voiceover-audio-design]] -- audio design choices that affect the UTIS model's content understanding
+- [[hook-first-half-second]] — INFORMS: the 1.7s attention window is the creative input that maps to the algorithm's 3s measurement gate
+- [[engagement-scoring-matrix]] — INFORMS: operationalizes these algorithm signals into a scoring framework
+- [[reels-pacing-structure]] — INFORMS: pacing rules derived from these algorithmic requirements
+- [[voiceover-audio-design]] — INFORMS: audio design choices that affect the UTIS model's content understanding
 - [[competitive-landscape-animation]] — INFORMS: the five-tier market landscape shows how different providers optimize (or fail to optimize) for these algorithm signals, exposing the gap between template tools and crafted content
 - [[vertical-whitespace-atlas]] — INFORMS: per-vertical whitespace analysis identifies saturated formats that the algorithm penalizes through low engagement signals, and whitespace formats that exploit algorithm signals competitors ignore
+- [[twitter-x-growth-mechanics]] — CONTRASTS: X algorithm rewards replies and author engagement (150x a like) while Instagram rewards sends/DM shares for discovery; the signal hierarchies are inverted, requiring different optimization per platform
+- [[twitter-x-api]] — EXTENDS: X's algorithm signals differ from Instagram's but share watch-time primacy; X's video quartile metrics (playback_25/50/75/100) provide granular retention data that maps to the same completion-rate analysis used here
 
 ---
 

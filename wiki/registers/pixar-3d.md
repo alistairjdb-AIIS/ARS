@@ -164,10 +164,10 @@ Sweet spot for Veo 3.1: micro-action sequence and full cluster levels. [VERIFIED
 
 ## Related Concepts
 
-- [[anime]] — Adjacent register; anime has weaker model priors but stronger crafted-prompt advantage
-- [[cartoon-western]] — Pixar shares shape language principles but operates at controlled exaggeration vs cartoon's extreme exaggeration
-- [[photoreal]] — Pixar is the furthest from photoreal uncanny valley concerns; painterly quality forgives drift
-- [[character-design-prompting]] — All acting chain and shape language principles originate here
+- [[anime]] — CONTRASTS: adjacent register; anime has weaker model priors but stronger crafted-prompt advantage
+- [[cartoon-western]] — CONTRASTS: Pixar shares shape language principles but operates at controlled exaggeration vs cartoon's extreme exaggeration
+- [[photoreal]] — CONTRASTS: Pixar is the furthest from photoreal uncanny valley concerns; painterly quality forgives drift
+- [[character-design-prompting]] — INFORMS: all acting chain and shape language principles originate here
 
 ---
 

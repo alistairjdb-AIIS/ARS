@@ -18,7 +18,7 @@
 - Base URL: `https://api.dev.runwayml.com/v1`
 - SDKs: Python (`runwayml`), Node.js (`@runwayml/sdk`)
 
-**Important:** Load API secret from env var. Never hardcode. [Standing rule — see [[feedback-never-hardcode-secrets]]]
+**Important:** Load API secret from env var. Never hardcode. [Standing rule — hardcoded key was auto-revoked by Google within minutes]
 
 **Endpoints:** [VERIFIED-docs]
 
@@ -268,11 +268,11 @@ This is Runway's actual strength — character consistency across shots via refe
 
 ## Related Concepts
 
-- [[kling-ai]] — Outperforms Runway for per-frame face quality without reference images. Kling's 3D VAE architecture encodes spatiotemporal trajectories; Runway relies on reference conditioning.
-- [[veo-3-1]] — Higher raw photoreal quality. Available through Runway's API at 2-4x cost. Joint audio generation is unique advantage.
-- [[photoreal]] — Register-level prompting patterns (imperfection prompting, narrative coherence, too-perfect veto) apply regardless of tool.
-- [[acting-chains-beat-camera]] — Core acting-chain principles transfer to Runway, but format must be adapted to prose (not beat-marked timeline).
-- [[prompting-craft-depth]] — Quality-modifier-suppresses-motion finding changes how craft depth is applied across all tools.
+- [[kling-ai]] — CONTRASTS: outperforms Runway for per-frame face quality without reference images. Kling's 3D VAE architecture encodes spatiotemporal trajectories; Runway relies on reference conditioning.
+- [[veo-3-1]] — CONTRASTS: higher raw photoreal quality. Available through Runway's API at 2-4x cost. Joint audio generation is unique advantage.
+- [[photoreal]] — DEPENDS_ON: register-level prompting patterns (imperfection prompting, narrative coherence, too-perfect veto) apply regardless of tool.
+- [[acting-chains-beat-camera]] — DEPENDS_ON: core acting-chain principles transfer to Runway, but format must be adapted to prose (not beat-marked timeline).
+- [[prompting-craft-depth]] — DEPENDS_ON: quality-modifier-suppresses-motion finding changes how craft depth is applied across all tools.
 
 ---
 

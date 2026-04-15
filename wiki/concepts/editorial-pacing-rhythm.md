@@ -161,11 +161,12 @@ Each element in a sequence delivers content AND transforms the interpretive fram
 
 ## Related Concepts
 
-- [[progressive-disclosure-pacing]] -- progressive disclosure applies editorial pacing principles to web sequences
-- [[transitions-state-change]] -- cut types (hard cut, dissolve, wipe, match cut) are implemented as transition techniques
-- [[choreography-stagger]] -- choreography is the multi-element implementation of editorial sequence design
-- [[motion-curves-easing]] -- the emotion-to-curve mapping provides the toolbox for Eisenstein's tonal montage
+- [[progressive-disclosure-pacing]] — INFORMS: progressive disclosure applies editorial pacing principles to web sequences
+- [[transitions-state-change]] — INFORMS: cut types (hard cut, dissolve, wipe, match cut) are implemented as transition techniques
+- [[choreography-stagger]] — INFORMS: choreography is the multi-element implementation of editorial sequence design
+- [[motion-curves-easing]] — DEPENDS_ON: the emotion-to-curve mapping provides the toolbox for Eisenstein's tonal montage
 - [[continuity-editing-scene-flow]] — EXTENDS: continuity editing applies editorial pacing's cut types and rhythm principles to enforce spatial and temporal coherence across independently produced shots
+- [[visual-narrative-cross-domain]] — INFORMS: Jo-ha-kyu provides a named framework for the acceleration pacing pattern; panel size as beat weight adds a spatial dimension to temporal pacing
 
 ---
 

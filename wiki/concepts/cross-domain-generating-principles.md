@@ -124,9 +124,12 @@ Design implication: Do not minimize loading states, waiting periods, or preparat
 
 ## Related Concepts
 
-- [[bandwidth-loading-field]] -- The three meta-patterns that emerge above these 10 principles
-- [[emotion-perception-neuroscience]] -- Neuroscience evidence that validates several principles (pre-attentive processing validates Principle 1; peak-end rule validates Principle 10)
-- [[storytelling-narrative-structures]] -- Narrative structures that instantiate these principles (tension/resolution = Principle 10; progressive disclosure = Principle 3)
+- [[bandwidth-loading-field]] — INFORMS: the three meta-patterns that emerge above these 10 principles
+- [[emotion-perception-neuroscience]] — DEPENDS_ON: neuroscience evidence that validates several principles (pre-attentive processing validates Principle 1; peak-end rule validates Principle 10)
+- [[storytelling-narrative-structures]] — INFORMS: narrative structures that instantiate these principles (tension/resolution = Principle 10; progressive disclosure = Principle 3)
+- [[visual-narrative-cross-domain]] — INFORMS: 12 new cross-domain patterns extending the principle-extraction approach to storytelling × visual perception, with explicit falsifiability conditions
+- [[scale-rhetoric]] — INFORMS: Scale Rhetoric applies Principle 6 (Attention — tilt the floor) to still-image composition for magnitude encoding
+- [[cross-domain-motion-graphics]] — EXTENDS: applies the cross-domain principle-extraction methodology to 10 non-design domains (microbiology, seismology, crystallography, psychoacoustics, etc.) for motion graphics overlay patterns
 
 ---
 

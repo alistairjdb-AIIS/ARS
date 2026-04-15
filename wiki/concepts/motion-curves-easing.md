@@ -158,10 +158,10 @@ Easing function complexity has no meaningful performance cost difference. [VERIF
 
 ## Related Concepts
 
-- [[squash-stretch-weight]] -- weight classes consume the curves defined here
-- [[choreography-stagger]] -- stagger timing uses these curves for organic delay distribution
-- [[transitions-state-change]] -- transitions consume these easing functions
-- [[editorial-pacing-rhythm]] -- rhythm emerges from curve x duration interactions
+- [[squash-stretch-weight]] — INFORMS: weight classes consume the curves defined here
+- [[choreography-stagger]] — INFORMS: stagger timing uses these curves for organic delay distribution
+- [[transitions-state-change]] — INFORMS: transitions consume these easing functions
+- [[editorial-pacing-rhythm]] — INFORMS: rhythm emerges from curve x duration interactions
 - [[texture-materiality]] — INFORMS: material behavior (glass fluidity, metal rigidity) must match the motion curves applied to that element; texture and easing must agree on physical weight
 - [[particle-procedural-effects]] — INFORMS: particle systems consume easing curves for birth/death opacity fades, velocity damping, and size-over-lifetime progressions that determine whether particles feel organic or mechanical
 - [[progressive-disclosure-pacing]] — INFORMS: progressive disclosure sequences depend on easing curves to set the emotional character of each reveal, beat drop, and dimming transition

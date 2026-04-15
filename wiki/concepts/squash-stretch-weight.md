@@ -135,10 +135,10 @@ Duration communicates weight directly. Longer = heavier, more consequential. Sho
 
 ## Related Concepts
 
-- [[motion-curves-easing]] -- the mathematical foundation for all weight-class curves
-- [[choreography-stagger]] -- how multiple weighted elements coordinate in sequence
-- [[progressive-disclosure-pacing]] -- timing and staging of reveals builds on weight principles
-- [[texture-materiality]] -- visual weight signals (shadows, depth) complement motion weight
+- [[motion-curves-easing]] — DEPENDS_ON: the mathematical foundation for all weight-class curves
+- [[choreography-stagger]] — INFORMS: how multiple weighted elements coordinate in sequence
+- [[progressive-disclosure-pacing]] — INFORMS: timing and staging of reveals builds on weight principles
+- [[texture-materiality]] — EXTENDS: visual weight signals (shadows, depth) complement motion weight
 
 ---
 

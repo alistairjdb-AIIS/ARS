@@ -218,10 +218,10 @@ Both serve the same message. Content is not dumbed down for scanners or padded f
 
 ## Related Concepts
 
-- [[design-psychology-gestalt]] — Typography hierarchy creates the progressive disclosure architecture; cognitive load theory underpins white space findings
-- [[lighting-design]] — Dark mode typography requirements (halation, font weight) are linked to dark UI lighting decisions
-- [[health-literacy-framing]] — Reading level research (6th-8th grade) interacts directly with font size and line length recommendations
-- [[visual-storytelling-mise-en-scene]] — Typography is part of composition on web; the reading order maps to composition's leading lines and visual hierarchy
+- [[design-psychology-gestalt]] — DEPENDS_ON: typography hierarchy creates the progressive disclosure architecture; cognitive load theory underpins white space findings
+- [[lighting-design]] — EXTENDS: dark mode typography requirements (halation, font weight) are linked to dark UI lighting decisions
+- [[health-literacy-framing]] — INFORMS: reading level research (6th-8th grade) interacts directly with font size and line length recommendations
+- [[visual-storytelling-mise-en-scene]] — EXTENDS: typography is part of composition on web; the reading order maps to composition's leading lines and visual hierarchy
 
 ---
 

@@ -1,6 +1,6 @@
 # Knowledge Wiki Index
 
-Last updated: 2026-04-07
+Last updated: 2026-04-08
 
 ## concepts/
 
@@ -39,6 +39,10 @@ Last updated: 2026-04-07
 | C31 | [sme-buyer-psychology](concepts/sme-buyer-psychology.md) | SME protect time/money, pricing transparency, 5 distrust triggers |
 | C32 | [competitive-landscape-animation](concepts/competitive-landscape-animation.md) | 5 market tiers, identified whitespace |
 | C33 | [continuity-editing-scene-flow](concepts/continuity-editing-scene-flow.md) | Continuity editing rules, invisible cuts, overlap, audio bridges, AI clip chaining |
+| C34 | [twitter-x-growth-mechanics](concepts/twitter-x-growth-mechanics.md) | X algorithm signal weights, Premium vs free, cold start, engagement velocity, TweepCred |
+| C35 | [visual-narrative-cross-domain](concepts/visual-narrative-cross-domain.md) | 12 cross-domain patterns connecting storytelling mechanics to visual perception, Jo-ha-kyu, Kuleshov fMRI, gutter-as-story, processing fluency |
+| C36 | [scale-rhetoric](concepts/scale-rhetoric.md) | Magnitude semantics: scale disparity + dark palette + low angle + minimal text = pre-attentive weight |
+| C37 | [cross-domain-motion-graphics](concepts/cross-domain-motion-graphics.md) | 10 motion graphics patterns from science: quorum sensing, seismic waves, metachronal rhythm, magnetic reconnection, crystal nucleation, siphonophore colony, convection cells, temporal masking, Turing fields, allometric scaling |
 
 ## tools/
 
@@ -50,6 +54,7 @@ Last updated: 2026-04-07
 | T04 | [ideogram-3](tools/ideogram-3.md) | Text-in-image, 58 style presets, typography prompting |
 | T05 | [kling-ai](tools/kling-ai.md) | Photoreal human specialist, JWT auth, 5-10s clips |
 | T06 | [runway-gen4](tools/runway-gen4.md) | Gen-4/4.5 API, reference-image consistency, force/physics prompt dialect |
+| T07 | [twitter-x-api](tools/twitter-x-api.md) | X API v2 posting, media upload, engagement metrics, pay-per-use pricing |
 
 ## registers/
 

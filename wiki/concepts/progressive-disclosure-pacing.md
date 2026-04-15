@@ -160,13 +160,14 @@ Systems respond to the derivative, not the state. First derivative (rate of chan
 
 ## Related Concepts
 
-- [[choreography-stagger]] -- stagger patterns and conductor model are the implementation mechanism for progressive disclosure
-- [[editorial-pacing-rhythm]] -- editorial pacing provides the film-craft vocabulary that progressive disclosure borrows
-- [[transitions-state-change]] -- each reveal in a progressive sequence is a state transition with editorial meaning
-- [[squash-stretch-weight]] -- weight and timing of individual reveals within the pacing sequence
-- [[motion-curves-easing]] -- curves determine the emotional character of each reveal
+- [[choreography-stagger]] — DEPENDS_ON: stagger patterns and conductor model are the implementation mechanism for progressive disclosure
+- [[editorial-pacing-rhythm]] — DEPENDS_ON: editorial pacing provides the film-craft vocabulary that progressive disclosure borrows
+- [[transitions-state-change]] — EXTENDS: each reveal in a progressive sequence is a state transition with editorial meaning
+- [[squash-stretch-weight]] — DEPENDS_ON: weight and timing of individual reveals within the pacing sequence
+- [[motion-curves-easing]] — DEPENDS_ON: curves determine the emotional character of each reveal
 - [[continuity-editing-scene-flow]] — INFORMS: continuity editing's invisible cut and overlap techniques ensure that progressive disclosure sequences feel like one continuous flow rather than disconnected reveals
 - [[particle-procedural-effects]] — EXTENDS: particle effects (completion fireworks, ambient dust, reactive bursts) serve as secondary action layers within progressive disclosure sequences, marking beat drops and payoff moments
+- [[visual-narrative-cross-domain]] — INFORMS: "the gutter IS the story" validates progressive disclosure at the panel/frame level; generation effect explains WHY withheld information produces stronger memory encoding
 
 ---
 

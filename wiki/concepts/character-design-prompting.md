@@ -149,13 +149,14 @@ Approximately 5 acting beats in 8 seconds causes visible scene transitions and f
 - [[narrative-coherence]] -- Acting chains enforce narrative coherence by making characters react to a consistent physical world
 - [[too-perfect-veto]] -- Character outputs can also trigger the too-perfect veto if movement is too smooth/symmetric
 - [[prompting-craft-depth]] -- Acting chains are part of what "craft depth" means for character prompts
-- [[ab-test-results]] -- v11-v17 test character prompt approaches
+- [[ab-test-results]] — DEPENDS_ON: v11-v17 test character prompt approaches
 - [[acting-chains-beat-camera]] -- The specific finding from this research applied to A/B testing
 - [[anime]] — EXTENDS: anime register applies acting chains, color-as-mood, and physical-descriptor prompting from this framework within Japanese animation visual language
 - [[cartoon-western]] — EXTENDS: Western cartoon register applies shape language, acting chains, and silhouette principles from this framework to flat-color 2D animation
 - [[photoreal]] — EXTENDS: photoreal register applies acting chains, micro-expression prompting, and physical descriptors from this framework where they are most critical due to uncanny valley sensitivity
 - [[pixar-3d]] — EXTENDS: Pixar/3D register applies shape language, 60-30-10 color, and acting chains from this framework with the strongest model priors of any stylized register
 - [[animate-pipeline-findings]] — INFORMS: /animate pipeline calibrates how much acting-chain specificity to include, balancing restraint vs richness based on content register
+- [[visual-narrative-cross-domain]] — INFORMS: serial visual narratives build through perceptual familiarity (mere exposure + processing fluency), validating consistent character identity as a compounding neurological investment
 
 ---
 

@@ -104,9 +104,9 @@ Application to Reels structure:
 
 ## Related Concepts
 
-- [[reels-pacing-structure]] -- the structural template that voiceover timing fits within
-- [[hook-first-half-second]] -- voice at t=0 is a critical component of the hook mechanism
-- [[engagement-scoring-matrix]] -- audio design affects Hook, Pacing, and Production Quality dimensions
+- [[reels-pacing-structure]] — DEPENDS_ON: the structural template that voiceover timing fits within
+- [[hook-first-half-second]] — INFORMS: voice at t=0 is a critical component of the hook mechanism
+- [[engagement-scoring-matrix]] — INFORMS: audio design affects Hook, Pacing, and Production Quality dimensions
 - [[reels-algorithm-signals]] -- Meta's AI analyzes voiceover audio for content categorization
 - [[continuity-editing-scene-flow]] — INFORMS: continuity editing uses audio bridging (J-cuts, L-cuts, ambient sound continuity) as one of its primary techniques for hiding cuts, and voiceover design determines how those audio bridges are constructed
 

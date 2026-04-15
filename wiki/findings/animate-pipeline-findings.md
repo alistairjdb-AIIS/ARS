@@ -98,10 +98,10 @@ These patterns work because they match how the /animate FEEL step processes timi
 ## Related Concepts
 
 - [[acting-chains-beat-camera]] -- Acting chains provide the content; /animate provides the calibration of how much to specify
-- [[prompting-craft-depth]] -- /animate is a structured approach to craft depth; the question is whether the structure adds value over direct craft
-- [[ab-test-results]] -- v19 and v20 are the specific tests; see full record
+- [[prompting-craft-depth]] — EXTENDS: /animate is a structured approach to craft depth; the question is whether the structure adds value over direct craft
+- [[ab-test-results]] — DEPENDS_ON: v19 and v20 are the specific tests; see full record
 - [[character-design-prompting]] -- The character design research that /animate draws from
-- [[narrative-coherence]] -- /animate's restraint helps maintain narrative coherence by preventing over-specification that introduces contradictions
+- [[narrative-coherence]] — INFORMS: /animate's restraint helps maintain narrative coherence by preventing over-specification that introduces contradictions
 
 ---
 

@@ -163,13 +163,15 @@ Meta's system predicts: [VERIFIED]
 
 ## Related Concepts
 
-- [[reels-algorithm-signals]] -- the algorithm signals that the scoring matrix attempts to proxy
-- [[hook-first-half-second]] -- detailed evidence for dimension 1 (Hook)
-- [[reels-pacing-structure]] -- detailed evidence for dimension 2 (Pacing)
-- [[voiceover-audio-design]] -- audio design rules that affect dimensions 1, 2, and 5
+- [[reels-algorithm-signals]] — DEPENDS_ON: the algorithm signals that the scoring matrix attempts to proxy
+- [[hook-first-half-second]] — DEPENDS_ON: detailed evidence for dimension 1 (Hook)
+- [[reels-pacing-structure]] — DEPENDS_ON: detailed evidence for dimension 2 (Pacing)
+- [[voiceover-audio-design]] — DEPENDS_ON: audio design rules that affect dimensions 1, 2, and 5
 - [[competitive-landscape-animation]] — INFORMS: the competitive landscape reveals which market tiers actually optimize for these scoring dimensions and where the gap exists between generic template output and crafted content
 - [[semantic-demand-patterns]] — INFORMS: format-topic matching from demand patterns should feed engagement prediction (dimension 6); reference vs validation mode affects which scoring dimensions matter most
 - [[vertical-whitespace-atlas]] — INFORMS: per-vertical whitespace analysis identifies which content formats score well on the scoring matrix dimensions and which saturated formats score poorly despite high production quality
+- [[twitter-x-api]] — INFORMS: X engagement data (likes, RTs, bookmarks, video completion) provides a second platform's signal channel to validate or challenge Instagram-derived scoring weights
+- [[twitter-x-growth-mechanics]] — INFORMS: X algorithm signal weights (replies 150x, bookmarks 20x likes) provide a cross-platform comparison to Instagram-derived scoring, showing where signal hierarchies diverge (X rewards conversation depth; Instagram rewards sends)
 
 ---
 

@@ -246,10 +246,10 @@ These principles compound. Full stack in order of application: [VERIFIED]
 
 ## Related Concepts
 
-- [[typography-comprehension]] — Font size, line length, and reading level research interact directly with health literacy findings; the scannable-but-deep pattern serves the same audience
-- [[design-psychology-gestalt]] — Cognitive load theory underpins both white space findings and the fluency research here; Norman's behavioral level requires clear communication
-- [[color-narrative]] — The dark-to-warm color arc maps to the anxiety-to-relief emotional journey that health framing addresses
-- [[visual-storytelling-mise-en-scene]] — Show-don't-tell must be balanced with health data's need for verbal framing and trust signals
+- [[typography-comprehension]] — DEPENDS_ON: font size, line length, and reading level research interact directly with health literacy findings; the scannable-but-deep pattern serves the same audience
+- [[design-psychology-gestalt]] — DEPENDS_ON: cognitive load theory underpins both white space findings and the fluency research here; Norman's behavioral level requires clear communication
+- [[color-narrative]] — EXTENDS: the dark-to-warm color arc maps to the anxiety-to-relief emotional journey that health framing addresses
+- [[visual-storytelling-mise-en-scene]] — CONTRASTS: show-don't-tell must be balanced with health data's need for verbal framing and trust signals
 
 ---
 

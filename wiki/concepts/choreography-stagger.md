@@ -148,12 +148,13 @@ Five choreography principles appear independently in IBM Carbon, Material Design
 
 ## Related Concepts
 
-- [[squash-stretch-weight]] -- weight classes determine how individual elements within a choreographed sequence behave
-- [[motion-curves-easing]] -- the curves used for each element in the sequence
-- [[transitions-state-change]] -- transitions between screens use choreography principles for multi-element coordination
-- [[progressive-disclosure-pacing]] -- pacing builds on choreography's stagger and staging principles
+- [[squash-stretch-weight]] — DEPENDS_ON: weight classes determine how individual elements within a choreographed sequence behave
+- [[motion-curves-easing]] — DEPENDS_ON: the curves used for each element in the sequence
+- [[transitions-state-change]] — INFORMS: transitions between screens use choreography principles for multi-element coordination
+- [[progressive-disclosure-pacing]] — INFORMS: pacing builds on choreography's stagger and staging principles
 - [[continuity-editing-scene-flow]] — INFORMS: continuity editing's match-on-action and overlap techniques provide the cross-cut coordination principles that choreographed stagger sequences implement within a single scene
 - [[editorial-pacing-rhythm]] — DEPENDS_ON: Murch's Rule of Six and Eisenstein's montage methods provide the film-editing theory that choreography's timing, overlap, and grouped-burst patterns operationalize at the element level
+- [[cross-domain-motion-graphics]] — EXTENDS: metachronal wave (zoology) and stagger orchestra are cross-domain refinements of choreography stagger applied to motion graphics overlays
 
 ---
 

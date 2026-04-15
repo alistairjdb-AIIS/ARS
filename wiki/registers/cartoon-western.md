@@ -268,10 +268,10 @@ Understanding how cartoon motion differs from adjacent registers helps avoid cro
 
 ## Related Concepts
 
-- [[anime]] — Style drift target; anime is heavily represented in training data and "animated" prompts can drift toward it
-- [[pixar-3d]] — Style drift target; "cartoon" prompts often drift to 3D-rendered characters with cartoon proportions
-- [[photoreal]] — Opposite end of the register spectrum; no overlap in prompting approach
-- [[character-design-prompting]] — Shape language, acting chains shared across all character registers
+- [[anime]] — CONTRASTS: style drift target; anime is heavily represented in training data and "animated" prompts can drift toward it
+- [[pixar-3d]] — CONTRASTS: style drift target; "cartoon" prompts often drift to 3D-rendered characters with cartoon proportions
+- [[photoreal]] — CONTRASTS: opposite end of the register spectrum; no overlap in prompting approach
+- [[character-design-prompting]] — DEPENDS_ON: shape language, acting chains shared across all character registers
 
 ---
 

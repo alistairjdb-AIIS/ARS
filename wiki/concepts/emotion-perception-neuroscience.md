@@ -225,9 +225,12 @@ Dopamine is released in response to reward prediction, not reward receipt. The a
 
 ## Related Concepts
 
-- [[cross-domain-generating-principles]] -- Principle 1 (Entry/Arrival) is the theoretical generalization of the pre-attentive 200ms finding; Principle 10 (Tension/Resolution) is the theoretical generalization of the peak-end rule and dopamine anticipation research
-- [[bandwidth-loading-field]] -- The Bandwidth Principle is the design abstraction of the perceptual finding that instant transitions overload the pre-attentive system; the Loading Principle is the design abstraction of dopamine anticipation research
-- [[storytelling-narrative-structures]] -- Neural coupling and oxytocin release are the neuroscience substrate of why narrative structures work; arousal-drives-sharing connects directly to which story shapes get shared
+- [[cross-domain-generating-principles]] — INFORMS: Principle 1 (Entry/Arrival) is the theoretical generalization of the pre-attentive 200ms finding; Principle 10 (Tension/Resolution) is the theoretical generalization of the peak-end rule and dopamine anticipation research
+- [[bandwidth-loading-field]] — INFORMS: the Bandwidth Principle is the design abstraction of the perceptual finding that instant transitions overload the pre-attentive system; the Loading Principle is the design abstraction of dopamine anticipation research
+- [[storytelling-narrative-structures]] — INFORMS: neural coupling and oxytocin release are the neuroscience substrate of why narrative structures work; arousal-drives-sharing connects directly to which story shapes get shared
+- [[visual-narrative-cross-domain]] — INFORMS: 2025 brain integration finding and perceptual vs conceptual pathways provide the neuroscience mechanisms underlying the 12 cross-domain patterns
+- [[scale-rhetoric]] — INFORMS: pre-attentive processing (88ms amygdala), looming motion, lightness-valence, and saturation-arousal provide the neuroscience foundation for the magnitude formula
+- [[cross-domain-motion-graphics]] — INFORMS: temporal masking asymmetry (psychoacoustics) and looming motion patterns are grounded in neuroscience evidence documented here
 
 ---
 

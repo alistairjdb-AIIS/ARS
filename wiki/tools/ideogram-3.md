@@ -107,6 +107,16 @@
 
 **Font control:** Cannot specify exact font names. CAN describe: weight (bold, thin), category (sans-serif, serif, script), style descriptors ("rounded bauhaus style", "art deco geometric"), size relative to composition.
 
+#### Multi-Panel Composition Limitation [TESTED — session 37]
+
+**Ideogram 3.0 is NOT suitable for multi-panel comics or layouts with 3+ text blocks.** Tested decisively on a 6-panel comic format (FACT LAB #01): all 4 variants produced garbled text, broken grid layouts, and repeated panels. The model conflates text positions when multiple text blocks compete for placement.
+
+- **1-2 text blocks with specific positions:** Works well (quote cards, title cards, posters)
+- **3+ text blocks with specific positions:** Model conflates locations, text bleeds across panels, grid structure breaks
+- **6-panel comic grid:** Complete failure — panels repeat, text garbles, grid collapses
+
+**Use Recraft V4 for multi-panel static compositions** — won 3/3 on the same briefs where Ideogram failed. [TESTED]
+
 #### The magic_prompt Parameter [VERIFIED]
 
 | Setting | What It Does | When to Use |

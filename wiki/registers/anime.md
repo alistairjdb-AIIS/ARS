@@ -108,6 +108,11 @@ Eye design is the #1 register signal. Specifying eye style often triggers the br
 
 **Face priors vs body drift:** Anime has strong face priors (large eyes, simplified features) but body proportions can drift. [VERIFIED — character_design_acting_research]
 
+**NB2 Western-comic drift on seinen manga:** When prompting NB2 (Gemini 3.1 Flash Image) for seinen manga style, even strong Japanese anchors (`seinen + screentone + Urasawa + B&W + 2D + hand-drawn`) produce Western comic-book style instead. This is a distinct failure mode from the 3D/Pixar drift documented above — the output stays 2D but looks like Marvel/DC, not tankobon. [TESTED — session 37, N=1]
+- Anchors that FAILED to prevent Western drift: `seinen, screentone, Urasawa, B&W, 2D, hand-drawn`
+- Candidate mitigation (UNTESTED): explicit anti-Western negatives + Japanese material anchors (`"ink on rice paper, tankobon page, Ben-Day dot pattern, Japanese publishing format"`)
+- **Recraft V4 does not have this drift** — produced accurate Pixar 3D register on the same brief. For manga-specific work, consider Recraft or add strong anti-Western negatives to NB2 prompts.
+
 **Temporal coherence:** Error accumulation follows power law; quality drops 3-7 seconds then plateaus. Shorter clips (3-4s) chain better than 8s for complex motion. [VERIFIED]
 
 ### Tool Selection
@@ -144,10 +149,10 @@ Eye design is the #1 register signal. Specifying eye style often triggers the br
 
 ## Related Concepts
 
-- [[cartoon-western]] — Adjacent register; style drift between anime and Western cartoon is a documented failure mode
-- [[pixar-3d]] — 3D drift risk from anime prompts; Pixar/3D has strongest model priors
-- [[photoreal]] — Narrative coherence principle applies across registers including anime
-- [[character-design-prompting]] — Acting chain specificity (stimulus-processing-response)
+- [[cartoon-western]] — CONTRASTS: adjacent register; style drift between anime and Western cartoon is a documented failure mode
+- [[pixar-3d]] — CONTRASTS: 3D drift risk from anime prompts; Pixar/3D has strongest model priors
+- [[photoreal]] — DEPENDS_ON: narrative coherence principle applies across registers including anime
+- [[character-design-prompting]] — DEPENDS_ON: acting chain specificity (stimulus-processing-response)
 
 ---
 

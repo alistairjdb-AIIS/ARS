@@ -180,10 +180,10 @@ From teardowns of 10 health/wellness brands (Calm, Headspace, WHOOP, Oura, Noom,
 
 ## Related Concepts
 
-- [[sme-buyer-psychology]] -- SME pricing sensitivity and trust signals directly affect positioning in the empty middle
-- [[reels-algorithm-signals]] -- algorithm knowledge is what platform-specific agencies (Tier E) sell; understanding these signals is table stakes
-- [[hook-first-half-second]] -- the three hook strategies from brand teardowns connect to hook design principles
-- [[engagement-scoring-matrix]] -- scoring framework as a quality assurance tool that agencies lack
+- [[sme-buyer-psychology]] — DEPENDS_ON: SME pricing sensitivity and trust signals directly affect positioning in the empty middle
+- [[reels-algorithm-signals]] — DEPENDS_ON: algorithm knowledge is what platform-specific agencies (Tier E) sell; understanding these signals is table stakes
+- [[hook-first-half-second]] — INFORMS: the three hook strategies from brand teardowns connect to hook design principles
+- [[engagement-scoring-matrix]] — INFORMS: scoring framework as a quality assurance tool that agencies lack
 
 ---
 

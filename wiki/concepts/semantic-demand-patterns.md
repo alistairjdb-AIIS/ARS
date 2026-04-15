@@ -147,10 +147,12 @@ The v2 dataset was partially misleading. Corrections: [VERIFIED]
 
 ## Related Concepts
 
-- [[hook-first-half-second]] -- confusion hook is the recommended scroll-stopping mechanism for health content
-- [[reels-pacing-structure]] -- content format determines pacing structure (data visualization vs protocol steps vs question card)
-- [[sme-buyer-psychology]] -- the reference vs validation mode split parallels SME buyer intent patterns
-- [[engagement-scoring-matrix]] -- engagement prediction dimension should account for format-topic matching
+- [[hook-first-half-second]] — INFORMS: confusion hook is the recommended scroll-stopping mechanism for health content
+- [[reels-pacing-structure]] — INFORMS: content format determines pacing structure (data visualization vs protocol steps vs question card)
+- [[sme-buyer-psychology]] — EXTENDS: the reference vs validation mode split parallels SME buyer intent patterns
+- [[engagement-scoring-matrix]] — INFORMS: engagement prediction dimension should account for format-topic matching
+- [[twitter-x-growth-mechanics]] — EXTENDS: X bookmark behavior (20x a like, reference-value signal) maps directly to the reference vs validation mode split; high-bookmark X content matches high-bookmark-to-like health topics (cheat sheets, protocols, technique breakdowns)
+- [[twitter-x-api]] — DEPENDS_ON: the Twitter/X search API and engagement metrics are the data collection substrate for all demand pattern findings; future real-time demand detection depends on continued API access and cost modeling
 
 ---
 

@@ -183,9 +183,11 @@ Beyond the 10 original principles, 10 additional sub-dimensions were synthesized
 
 ## Related Concepts
 
-- [[cross-domain-generating-principles]] -- The 10 principles from which these 3 meta-patterns emerge
-- [[emotion-perception-neuroscience]] -- Pre-attentive processing validates the Bandwidth Principle (200ms processing window requires ramp); peak-end rule validates the Loading Principle (peak value is proportional to preceding tension)
-- [[storytelling-narrative-structures]] -- Tension/release cycles in narrative are instances of the Loading Principle; Kishotenketsu's "Ten" (twist) is an instance of the Bandwidth Principle's entrain-violate-resolve pattern
+- [[cross-domain-generating-principles]] — EXTENDS: the 10 principles from which these 3 meta-patterns emerge
+- [[emotion-perception-neuroscience]] — DEPENDS_ON: pre-attentive processing validates the Bandwidth Principle (200ms processing window requires ramp); peak-end rule validates the Loading Principle (peak value is proportional to preceding tension)
+- [[storytelling-narrative-structures]] — INFORMS: tension/release cycles in narrative are instances of the Loading Principle; Kishotenketsu's "Ten" (twist) is an instance of the Bandwidth Principle's entrain-violate-resolve pattern
+- [[scale-rhetoric]] — INFORMS: Scale Rhetoric applies the Field Principle (attention via environment shaping) and Scale sub-dimension (atmospheric >50% regime) to still-image magnitude encoding
+- [[cross-domain-motion-graphics]] — INFORMS: Loading Principle (tension before payoff) underpins magnetic reconnection + crystal nucleation patterns; Field Principle underpins siphonophore colony + Turing reaction-diffusion patterns
 
 ---
 

@@ -106,13 +106,15 @@ Three dominant hook strategies emerge from competitive analysis of 10 health/wel
 
 ## Related Concepts
 
-- [[reels-algorithm-signals]] -- the 3-second hold rate threshold that the hook must satisfy
-- [[reels-pacing-structure]] -- what happens after the hook lands (pacing to maintain retention)
-- [[voiceover-audio-design]] -- voice-first design rules that support the audio component of the hook
-- [[engagement-scoring-matrix]] -- hook is dimension 1 of the scoring framework
-- [[semantic-demand-patterns]] -- confusion as the universal emotion drives hook selection for health content
+- [[reels-algorithm-signals]] — DEPENDS_ON: the 3-second hold rate threshold that the hook must satisfy
+- [[reels-pacing-structure]] — INFORMS: what happens after the hook lands (pacing to maintain retention)
+- [[voiceover-audio-design]] — DEPENDS_ON: voice-first design rules that support the audio component of the hook
+- [[engagement-scoring-matrix]] — INFORMS: hook is dimension 1 of the scoring framework
+- [[semantic-demand-patterns]] — DEPENDS_ON: confusion as the universal emotion drives hook selection for health content
 - [[competitive-landscape-animation]] — INFORMS: competitive teardowns of health/wellness brand videos surface the three dominant hook strategies (status, reframe, specific problem) that validate the hook patterns documented here
 - [[vertical-whitespace-atlas]] — INFORMS: per-vertical whitespace analysis identifies which hook patterns work within underserved content formats, connecting hook strategy to vertical-specific opportunity gaps
+- [[twitter-x-growth-mechanics]] — INFORMS: the X algorithm 3-second dwell time threshold parallels the Instagram 3-second retention gate, confirming cross-platform convergence on sub-3-second attention as the critical hook window
+- [[visual-narrative-cross-domain]] — INFORMS: maps hook-hold-payoff to ambient-focal eye-tracking processing modes, providing the neuroscience mechanism for why hooks work at the perceptual level
 
 ---
 
